@@ -1,0 +1,38 @@
+[@blockone/ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/WrapVariable"](../modules/_specversions_v0_0_wrapvariable_.md)
+
+# External module: "specVersions/v0.0/WrapVariable"
+
+## Index
+
+### Type aliases
+
+* [WrapVariable](_specversions_v0_0_wrapvariable_.md#wrapvariable)
+
+---
+
+## Type aliases
+
+<a id="wrapvariable"></a>
+
+###  WrapVariable
+
+**Ƭ WrapVariable**: *`function`*
+
+*Defined in [specVersions/v0.0/WrapVariable.ts:1](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/WrapVariable.ts#L1)*
+
+#### Type declaration
+▸(prefix: *`string`*, classname: *`string`*, variable: *`string`*, suffix: *`string`*): `string`
+
+**Parameters:**
+
+| Param | Type |
+| ------ | ------ |
+| prefix | `string` |
+| classname | `string` |
+| variable | `string` |
+| suffix | `string` |
+
+**Returns:** `string`
+
+___
+

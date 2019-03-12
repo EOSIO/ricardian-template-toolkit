@@ -1,0 +1,24 @@
+[@blockone/ricardian-template-toolkit](../README.md) > ["config"](../modules/_config_.md)
+
+# External module: "config"
+
+## Index
+
+### Variables
+
+* [MAX_PASSES](_config_.md#max_passes)
+
+---
+
+## Variables
+
+<a id="max_passes"></a>
+
+### `<Const>` MAX_PASSES
+
+**● MAX_PASSES**: *`3`* = 3
+
+*Defined in [config.ts:1](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/config.ts#L1)*
+
+___
+

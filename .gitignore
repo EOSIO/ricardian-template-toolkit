@@ -1,0 +1,12 @@
+*.log
+npm-debug.log*
+coverage
+lib
+node_modules
+.npm
+.idea
+.DS_Store
+.vscode
+dist
+dist-esm
+_bundles

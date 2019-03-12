@@ -1,0 +1,14 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": "@blockone/blockone",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    },
+    "sourceType": "module"
+  }
+}

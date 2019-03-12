@@ -1,0 +1,179 @@
+{
+  "abi": {
+    "types": [
+      {
+        "type": "name",
+        "new_type_name": "account_name"
+      }
+    ],
+    "tables": [
+      {
+        "name": "accounts",
+        "type": "account",
+        "key_names": [
+          "currency"
+        ],
+        "key_types": [
+          "uint64"
+        ],
+        "index_type": "i64"
+      },
+      {
+        "name": "stat",
+        "type": "currency_stats",
+        "key_names": [
+          "currency"
+        ],
+        "key_types": [
+          "uint64"
+        ],
+        "index_type": "i64"
+      }
+    ],
+    "actions": [
+      {
+        "name": "transfer",
+        "type": "transfer",
+        "ricardian_contract": "---\ntitle: Token Transfer\nsummary: Transfer tokens from {{from}} to {{to}}.\nicon: http://simpleicon.com/wp-content/uploads/like.png#d0da4e5d44e4f2d325109010203fda422d3f7cd4934d874cb4ea98a62bf16cec\n---\n\n## Transfer Terms & Conditions\n\nI, {{from}}, certify the following to be true to the best of my knowledge:\n\n1. I certify that {{quantity}} is not the proceeds of fraudulent or violent activities.\n2. I certify that, to the best of my knowledge, {{to}} is not supporting initiation of violence against others.\n3. I have disclosed any contractual \"terms & conditions\" with respect to {{quantity}} to {{to}}.\n\nI understand that funds transfers are not reversible after the {{$transaction.delay_sec}} seconds or other delay as configured by {{from}}'s permissions.\n\nIf this action fails to be irreversibly confirmed after receiving goods or services from '{{to}}', I agree to either return the goods or services or resend {{quantity}} in a timely manner.\n"
+      },
+      {
+        "name": "multitransf",
+        "type": "multitransf",
+        "ricardian_contract": "---\ntitle: Multi Token Transfer\nsummary: Transfer multiple different tokens from {{from}} to {{to}}.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n# Super Multi Transfer with whole ABI Meta Data\n\n![header-img](https://cdn-images-1.medium.com/max/900/1*zkkZqd1_ShN9rRqBG_Wu3A@2x.png#HA8HG03SH3R3HA8HG03SH3R3HA8HG03SH3R3)\n\n<p>This contract action is <strong>NOT</strong> a real one, and not related to `eosio.token` at all.<br/>\nJust an example of testing all the contract parsings with handlebars.</p>\n\n## Transfer Terms & Conditions\n\nI, {{from}}, certify the following to be true to the best of my knowledge:\n\n1. I certify that the total amount of this transfer does not the proceeds of fraudulent or violent activities.\n2. I certify that, to the best of my knowledge, {{to}} is not supporting initiation of violence against others.\n3. I have disclosed any contractual terms & conditions with respect to {{to}}.\n\nThe transfered tokens are:\n\n{{#each quantities}}\n  - {{@index}}: {{{lookup ../memos @index}}} {{this}}\n{{else}}\n  Not transfer\n{{/each}}\n\nAnd these are the reasons:\n\n{{#each memos}}\n  {{{this}}}\n{{else}}\n  Not transfer\n{{/each}}\n\nI understand that funds transfers are not reversible after the {{$transaction.delay_sec}} seconds or other delay as configured by {{from}}'s permissions.\n\nIf this action fails to be irreversibly confirmed after receiving goods or services from '{{to}}', I agree to either return the goods or services or resend all over again in a timely manner.\n\n### Transaction metadata\n\n- expiration: {{$transaction.expiration}}\n- ref_block_num: {{$transaction.ref_block_num}}\n- ref_block_prefix: {{$transaction.ref_block_prefix}}\n- max_net_usage_words: {{$transaction.max_net_usage_words}}\n- max_cpu_usage_ms: {{$transaction.max_cpu_usage_ms}}\n- delay_sec: {{$transaction.delay_sec}}\n- context_free_actions: {{$transaction.context_free_actions}}\n\n### Action Metadata\n\n- account: {{$action.account}}\n- name: {{$action.name}}\n- authorization: {{$action.authorization}}\n- authorization.[0].actor: {{$action.authorization.[0].actor}}\n- authorization.[0].permission: {{$action.authorization.[0].permission}}\n\n{{#if $transaction.actions.[1]}}\n  ### That's not all!!! :)\n\n  I'm also sending you {{$transaction.actions.[1].data.quantity}} - because {{$transaction.actions.[1].data.memo}}\n{{else}}\n  **That's it!**\n{{/if}}\n\n\n#### Transaction Contract Clauses\n\n{{$clauses.boilerplate}}\n\n{{$clauses.ricardian_contract_images}}\n\n{{$clauses.ricardian_clause_interpolations}}\n"
+      },
+      {
+        "name": "issue",
+        "type": "issue",
+        "ricardian_contract": ""
+      },
+      {
+        "name": "create",
+        "type": "create",
+        "ricardian_contract": ""
+      }
+    ],
+    "structs": [
+      {
+        "base": "",
+        "name": "transfer",
+        "fields": [
+          {
+            "name": "from",
+            "type": "account_name"
+          },
+          {
+            "name": "to",
+            "type": "account_name"
+          },
+          {
+            "name": "quantity",
+            "type": "asset"
+          },
+          {
+            "name": "memo",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "base": "",
+        "name": "multitransf",
+        "fields": [
+          {
+            "name": "from",
+            "type": "account_name"
+          },
+          {
+            "name": "to",
+            "type": "account_name"
+          },
+          {
+            "name": "quantities",
+            "type": "asset[]"
+          },
+          {
+            "name": "memos",
+            "type": "string[]"
+          }
+        ]
+      },
+      {
+        "base": "",
+        "name": "create",
+        "fields": [
+          {
+            "name": "issuer",
+            "type": "account_name"
+          },
+          {
+            "name": "maximum_supply",
+            "type": "asset"
+          }
+        ]
+      },
+      {
+        "base": "",
+        "name": "issue",
+        "fields": [
+          {
+            "name": "to",
+            "type": "account_name"
+          },
+          {
+            "name": "quantity",
+            "type": "asset"
+          },
+          {
+            "name": "memo",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "base": "",
+        "name": "account",
+        "fields": [
+          {
+            "name": "balance",
+            "type": "asset"
+          }
+        ]
+      },
+      {
+        "base": "",
+        "name": "currency_stats",
+        "fields": [
+          {
+            "name": "supply",
+            "type": "asset"
+          },
+          {
+            "name": "max_supply",
+            "type": "asset"
+          },
+          {
+            "name": "issuer",
+            "type": "account_name"
+          }
+        ]
+      }
+    ],
+    "version": "eosio::abi/1.0",
+    "abi_extensions": [],
+    "error_messages": [],
+    "ricardian_clauses": [
+      {
+        "id": "boilerplate",
+        "body": "I, {{from}}, swear by the moon and the stars in the sky\nI'll be there\nI swear like a shadow that's by your side\nI'll be there\n\nFor better or worse, till death do us part\nI'll love you with every beat of my heart\nAnd I swear"
+      },
+      {
+        "id": "ricardian_contract_images",
+        "body": "![EOS ricardian_contract_images](https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3)"
+      },
+      {
+        "id": "ricardian_clause_interpolations",
+        "body": "You are sending this transfer from the account: {{from}}"
+      }
+    ]
+  }
+}

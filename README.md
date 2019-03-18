@@ -2,12 +2,12 @@
 
 This library contains a factory that takes an ABI object, a transaction object, and an action index (along with some developer-oriented flags). It then:
 
-1. selects an appropriate processor based on the `spec_version` field in the contract metadata;
-1. validates the Ricardian Contracts and metadata associated with the transaction actions;
-1. validates all other spec requirements, including image sizes and hashes;
-1. interpolates all variables with data from the transaction or ricardian_clauses;
-1. on success, returns an object with metadata and Contract Markup Language (CML, a subset of HTML);
-1. on error or validation failure, returns a descriptive error, along with any data it was able to successfully parse and render
+1. Selects an appropriate processor based on the `spec_version` field in the contract metadata
+1. Validates the Ricardian Contracts and metadata associated with the transaction actions
+1. Validates all other spec requirements, including image sizes and hashes
+1. Interpolates all variables with data from the transaction or ricardian_clauses
+1. On success, returns an object with metadata and Contract Markup Language (CML, a subset of HTML)
+1. On error or validation failure, returns a descriptive error, along with any data it was able to successfully parse and render
 
 Foundational Inspiration for Metadata:
 - https://hiltmon.com/blog/2012/06/18/markdown-metadata/
@@ -17,7 +17,7 @@ Foundational Inspiration for Metadata:
 
 ### Installation
 
-`yarn add @blockone/contract-template-toolkit`
+`yarn add @blockone/ricardian-template-toolkit`
 
 ### Running Locally
 
@@ -34,14 +34,14 @@ yarn example
 
 
 ### Ricardian Specification
-The Ricardian specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
+The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
 
 ### Usage
 
 Usage is very straightforward:
 
-```
-import RicardianContractFactory from '@blockone/contract-template-toolkit'
+```javascript
+import RicardianContractFactory from '@blockone/ricardian-template-toolkit'
 
 ...
 
@@ -66,7 +66,7 @@ const metadata = ricardianContract.getMetadata()
 const html = ricardianContract.getHtml()
 ```
 
-### Backward compatability note
+### Backward Compatability Note
 
 Be aware that for backward compatability with contract specifications prior to `0.1.0`, any contracts
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.

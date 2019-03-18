@@ -35,6 +35,7 @@ yarn example
 ### Ricardian Specification
 
 The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
+
 **Notice:** currently only version [`0.0.0` of the Ricardian Specification](https://github.com/EOSIO/ricardian-spec/tree/v0.0.0) is supported by this library.
 
 ### Usage

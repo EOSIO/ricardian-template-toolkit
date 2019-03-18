@@ -32,9 +32,10 @@ yarn example
 * `yarn lint`
 * `yarn test`
 
-
 ### Ricardian Specification
+
 The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
+**Notice:** currently only version [`0.0.0` of the Ricardian Specification](https://github.com/EOSIO/ricardian-spec/tree/v0.0.0) is supported by this library.
 
 ### Usage
 
@@ -66,7 +67,7 @@ const metadata = ricardianContract.getMetadata()
 const html = ricardianContract.getHtml()
 ```
 
-### Backward Compatability Note
+### Backward Compatibility Note
 
-Be aware that for backward compatability with contract specifications prior to `0.1.0`, any contracts
+Be aware that for backward compatibility with contract specifications prior to `0.1.0`, any contracts
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.

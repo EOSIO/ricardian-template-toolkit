@@ -26,6 +26,8 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
   private allowUnusedVariables = false
   private disableMetadataValidation = false
 
+  private wrappedHelpers: string[] = ['lookup']
+
   /**
    * Constructs the RicardianContractProcessorImpl.
    */
@@ -37,17 +39,23 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
         + '</div>'
     })
 
-    Handlebars.registerHelper('symbol_to_symbol_code', (symbol: string): string => {
+    this.registerWrappedHelper('symbol_to_symbol_code', (symbol: string): string => {
       return extractSymbolCode(symbol)
     })
 
-    Handlebars.registerHelper('asset_to_symbol_code', (asset: string): string => {
+    this.registerWrappedHelper('asset_to_symbol_code', (asset: string): string => {
       return extractSymbolCode(asset)
     })
 
     Handlebars.registerHelper('nowrap', (text: string): string => {
       return text
     })
+  }
+
+  // Register a helper whose output should be wrapped as a variable
+  protected registerWrappedHelper(name: string, fn: Handlebars.HelperDelegate) {
+    Handlebars.registerHelper(name, fn)
+    this.wrappedHelpers.push(name)
   }
 
   public getSpecVersion() {
@@ -137,7 +145,7 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
     const allowUnusedVariables = this.allowUnusedVariables
     do {
       try {
-        interpolatedRicardian = tagTemplateVariables(interpolatedRicardian)
+        interpolatedRicardian = tagTemplateVariables(this.wrappedHelpers, interpolatedRicardian)
         const handlebarsTemplate: Handlebars.Template = Handlebars.compile(
           interpolatedRicardian,
           { strict: !allowUnusedVariables },
@@ -186,7 +194,7 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
     do {
       try {
         hasUninterpolatedVars = false
-        interpolatedMetadata = tagMetadataVariables(interpolatedMetadata)
+        interpolatedMetadata = tagMetadataVariables(this.wrappedHelpers, interpolatedMetadata)
 
         Object.keys(interpolatedMetadata)
           .forEach((key) => {

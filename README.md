@@ -17,7 +17,7 @@ Foundational Inspiration for Metadata:
 
 ## Installation
 
-`yarn add @blockone/ricardian-template-toolkit`
+`yarn add ricardian-template-toolkit`
 
 ## Running Locally
 
@@ -43,7 +43,7 @@ The Ricardian Specification and an example of a compliant Ricardian contract can
 Usage is very straightforward:
 
 ```javascript
-import RicardianContractFactory from '@blockone/ricardian-template-toolkit'
+import RicardianContractFactory from 'ricardian-template-toolkit'
 
 ...
 

@@ -18,7 +18,7 @@
 
 **● MAX_PASSES**: *`3`* = 3
 
-*Defined in [config.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/config.ts#L1)*
+*Defined in [config.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/config.ts#L1)*
 
 ___
 

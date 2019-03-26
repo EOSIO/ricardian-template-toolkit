@@ -45,7 +45,9 @@ describe('RicardianContractProcessorImp - v1.1', () => {
       })
       expect(rc.getHtml()).toEqual(expectedHtml)
     })
+  })
 
+  describe('permission_in_permission_level', () => {
     it('extracts the permission from a permission_level object', () => {
       const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nAuthorization has permissions <div class=\"variable data\">active</div><br />\n`
       const newAbi: Abi = {

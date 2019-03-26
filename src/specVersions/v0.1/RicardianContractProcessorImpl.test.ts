@@ -1,18 +1,7 @@
 import { Abi } from '../../interfaces'
-// import { RicardianContractRenderError } from '../../RicardianContractRenderError'
 import { RicardianContractProcessorImpl } from './RicardianContractProcessorImpl'
 
-// import {
-//   complexEosioTokenAbi,
-//   complexExpectedHtml,
-//   complexExpectedMetadata,
-//   complexTransferTransaction,
-// } from '../../testfixtures/complex-fixtures'
 import { eosioTokenAbi, transferTransaction } from '../../testfixtures/fixtures'
-
-// const complexMetadata = JSON.parse(complexExpectedMetadata)
-// const complexTransaction = JSON.parse(complexTransferTransaction)
-// const complexAbi = JSON.parse(complexEosioTokenAbi)
 
 const transaction = JSON.parse(transferTransaction)
 const abi = JSON.parse(eosioTokenAbi)

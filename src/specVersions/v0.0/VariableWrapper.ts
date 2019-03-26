@@ -16,21 +16,23 @@ export class VariableWrapper {
     return RegExp(`${VariableWrapper.start}${variable}${VariableWrapper.end}`, 'g')
   }
 
-  private static createWrappedHelperMatcher(): RegExp {
+  private static createWrappedHelperMatcher(wrappedHelpers: string[]): RegExp {
+    const wrappedHelperStr = wrappedHelpers.join('|')
     // The extra () near the beginning acts as a placeholder so the number of captured elements match the main regex
-    const { source: wrappedHelper } = /(()(lookup|symbol_to_symbol_code|asset_to_symbol_code)\s([^}]+))/
+    const wrappedHelper = `(()(${wrappedHelperStr})\\s([^}]+))`
     const { source: variable } = RegExp(`${VariableWrapper.space}${wrappedHelper}${VariableWrapper.space}`)
 
     return RegExp(`${VariableWrapper.start}${variable}${VariableWrapper.end}`, 'g')
   }
 
   private variableMatch: RegExp = VariableWrapper.createVariableMatcher()
-  private wrappedHelperMatch: RegExp = VariableWrapper.createWrappedHelperMatcher()
+  private wrappedHelperMatch: RegExp
 
   private wrapVariable: WrapVariable
 
-  public constructor(wrapVariable: WrapVariable) {
+  public constructor(wrappedHelpers: string[], wrapVariable: WrapVariable) {
     this.wrapVariable = wrapVariable
+    this.wrappedHelperMatch = VariableWrapper.createWrappedHelperMatcher(wrappedHelpers)
   }
 
   public wrap(template: string) {

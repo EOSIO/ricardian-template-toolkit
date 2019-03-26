@@ -23,7 +23,7 @@
 
 ▸ **getHtml**(): `string`
 
-*Defined in [interfaces.ts:69](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/interfaces.ts#L69)*
+*Defined in [interfaces.ts:69](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L69)*
 
 **Returns:** `string`
 
@@ -34,7 +34,7 @@ ___
 
 ▸ **getMetadata**(): [ContractMetadata](_interfaces_.contractmetadata.md)
 
-*Defined in [interfaces.ts:70](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/interfaces.ts#L70)*
+*Defined in [interfaces.ts:70](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L70)*
 
 **Returns:** [ContractMetadata](_interfaces_.contractmetadata.md)
 

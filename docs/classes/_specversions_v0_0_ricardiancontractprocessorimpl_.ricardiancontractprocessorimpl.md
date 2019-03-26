@@ -45,7 +45,7 @@ Processes a Ricardian contract, interpolating transaction variables and clauses,
 
 ⊕ **new RicardianContractProcessorImpl**(): [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L27)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L27)*
 
 Constructs the RicardianContractProcessorImpl.
 
@@ -61,7 +61,7 @@ ___
 
 **● allowUnusedVariables**: *`boolean`* = false
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:26](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L26)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:26](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L26)*
 
 ___
 <a id="disablemetadatavalidation"></a>
@@ -70,7 +70,7 @@ ___
 
 **● disableMetadataValidation**: *`boolean`* = false
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L27)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L27)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **convertToHtml**(content: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:228](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L228)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:228](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L228)*
 
 Given a Github flavored markdown formatted string, generate HTML. Also replaces \[variable\] tags with
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **createContext**(abi: *[Abi](../interfaces/_interfaces_.abi.md)*, transaction: *[Transaction](../interfaces/_interfaces_.transaction.md)*, action: *[TransactionAction](../interfaces/_interfaces_.transactionaction.md)*): [RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:91](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L91)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:91](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L91)*
 
 Parses a transaction and returns an object with formatted transaction data
 
@@ -128,7 +128,7 @@ ___
 
 *Implementation of [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md).[getSpecVersion](../interfaces/_interfaces_.ricardiancontractprocessor.md#getspecversion)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:53](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L53)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:53](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L53)*
 
 **Returns:** `object`
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **interpolateContract**(rawTemplate: *`string`*, context: *[RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)*, maxPasses: *`number`*): `object`
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:116](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L116)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:116](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L116)*
 
 Interpolate variables referenced in the contract metadata and body.
 
@@ -161,7 +161,7 @@ ___
 
 ▸ **interpolateMetadata**(metadata: *[ContractMetadata](../interfaces/_interfaces_.contractmetadata.md)*, context: *[RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)*, maxPasses: *`number`*): [ContractMetadata](../interfaces/_interfaces_.contractmetadata.md)
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:173](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L173)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:173](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L173)*
 
 Interpolate the variables referenced in the given ContractMetadata, performing maxPasses of intererpolation. Note that the "title" and "icon" metadata fields are NOT subject to interpolation and are returned as-is.
 
@@ -183,7 +183,7 @@ ___
 
 ▸ **interpolateRicardian**(contractContent: *`string`*, context: *[RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)*, maxPasses: *`number`*): `string`
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:134](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L134)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:134](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L134)*
 
 Interpolate the variables referenced in contractContent, making the specified number of passes.
 
@@ -207,7 +207,7 @@ ___
 
 *Implementation of [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md).[process](../interfaces/_interfaces_.ricardiancontractprocessor.md#process)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L65)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L65)*
 
 Process the RicardianContractConfig and return a RicardianContract.
 

@@ -20,7 +20,7 @@ Foundational Inspiration for Metadata:
 Installation
 ------------
 
-`yarn add @blockone/ricardian-template-toolkit`
+`yarn add ricardian-template-toolkit`
 
 Running Locally
 ---------------
@@ -50,7 +50,7 @@ Usage
 Usage is very straightforward:
 
 ```javascript
-import RicardianContractFactory from '@blockone/ricardian-template-toolkit'
+import RicardianContractFactory from 'ricardian-template-toolkit'
 
 ...
 

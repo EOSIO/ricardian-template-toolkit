@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/validators"](../modules/_specversions_v0_0_validators_.md)
+[ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/validators"](../modules/_specversions_v0_0_validators_.md)
 
 # External module: "specVersions/v0.0/validators"
 
@@ -20,7 +20,7 @@
 
 ▸ **validateIcon**(icon?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:30](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/validators.ts#L30)*
+*Defined in [specVersions/v0.0/validators.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/validators.ts#L30)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **validateSummary**(summary?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:17](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/validators.ts#L17)*
+*Defined in [specVersions/v0.0/validators.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/validators.ts#L17)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **validateTitle**(title?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:6](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/validators.ts#L6)*
+*Defined in [specVersions/v0.0/validators.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/validators.ts#L6)*
 
 **Parameters:**
 

@@ -1,4 +1,4 @@
-## EOSIO Ricardian Template Toolkit
+# EOSIO Ricardian Template Toolkit ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
 
 This library contains a factory that takes an ABI object, a transaction object, and an action index (along with some developer-oriented flags). It then:
 
@@ -15,11 +15,11 @@ Foundational Inspiration for Metadata:
 - https://stackoverflow.com/questions/44215896/markdown-metadata-format#answer-44222826
 
 
-### Installation
+## Installation
 
 `yarn add @blockone/ricardian-template-toolkit`
 
-### Running Locally
+## Running Locally
 
 ```
 yarn install
@@ -27,18 +27,18 @@ yarn build
 yarn example
 ```
 
-### Other Commands
+## Other Commands
 
 * `yarn lint`
 * `yarn test`
 
-### Ricardian Specification
+## Ricardian Specification
 
 The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
 
 **Notice:** currently only version [`0.0.0` of the Ricardian Specification](https://github.com/EOSIO/ricardian-spec/tree/v0.0.0) is supported by this library.
 
-### Usage
+## Usage
 
 Usage is very straightforward:
 
@@ -68,10 +68,20 @@ const metadata = ricardianContract.getMetadata()
 const html = ricardianContract.getHtml()
 ```
 
-### Backward Compatibility Note
+## Backward Compatibility Note
 
 Be aware that for backward compatibility with contract specifications prior to `0.1.0`, any contracts
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
+
+## Contributing
+
+[Contributing Guide](./CONTRIBUTING.md)
+
+[Code of Conduct](./CONTRIBUTING.md#conduct)
+
+## License
+
+[MIT](./LICENSE)
 
 ## Important
 

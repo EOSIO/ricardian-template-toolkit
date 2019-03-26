@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/helpers"](../modules/_specversions_v0_0_helpers_.md)
+[ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/helpers"](../modules/_specversions_v0_0_helpers_.md)
 
 # External module: "specVersions/v0.0/helpers"
 
@@ -25,7 +25,7 @@
 
 ▸ **extractSymbolCode**(text: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:53](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L53)*
+*Defined in [specVersions/v0.0/helpers.ts:53](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L53)*
 
 **Parameters:**
 
@@ -42,7 +42,7 @@ ___
 
 ▸ **getWhiteList**(): `object`
 
-*Defined in [specVersions/v0.0/helpers.ts:123](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L123)*
+*Defined in [specVersions/v0.0/helpers.ts:123](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L123)*
 
 **Returns:** `object`
 
@@ -53,7 +53,7 @@ ___
 
 ▸ **hasVariable**(text: *`string`*): `boolean`
 
-*Defined in [specVersions/v0.0/helpers.ts:25](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L25)*
+*Defined in [specVersions/v0.0/helpers.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L25)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ ___
 
 ▸ **indexTransaction**(entry: *`any`*): `any`
 
-*Defined in [specVersions/v0.0/helpers.ts:7](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L7)*
+*Defined in [specVersions/v0.0/helpers.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L7)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **processTag**(tagStack: *`string`[]*, tag: *`string`*, options: *`any`*): `void`
 
-*Defined in [specVersions/v0.0/helpers.ts:96](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L96)*
+*Defined in [specVersions/v0.0/helpers.ts:96](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L96)*
 
 **Parameters:**
 
@@ -106,7 +106,7 @@ ___
 
 ▸ **sanitizeHtml**(html: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:63](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L63)*
+*Defined in [specVersions/v0.0/helpers.ts:63](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L63)*
 
 **Parameters:**
 
@@ -123,7 +123,7 @@ ___
 
 ▸ **tagMetadataVariables**(metadata: *`object`*): `object`
 
-*Defined in [specVersions/v0.0/helpers.ts:38](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L38)*
+*Defined in [specVersions/v0.0/helpers.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L38)*
 
 **Parameters:**
 
@@ -140,7 +140,7 @@ ___
 
 ▸ **tagTemplateVariables**(template: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:30](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/helpers.ts#L30)*
+*Defined in [specVersions/v0.0/helpers.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/84a970d/src/specVersions/v0.0/helpers.ts#L30)*
 
 **Parameters:**
 

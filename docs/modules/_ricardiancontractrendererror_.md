@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md)
+[ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md)
 
 # External module: "RicardianContractRenderError"
 

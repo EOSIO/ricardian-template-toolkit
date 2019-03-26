@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/RicardianContext"](../modules/_specversions_v0_0_ricardiancontext_.md) > [RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)
+[ricardian-template-toolkit](../README.md) > ["specVersions/v0.0/RicardianContext"](../modules/_specversions_v0_0_ricardiancontext_.md) > [RicardianContext](../interfaces/_specversions_v0_0_ricardiancontext_.ricardiancontext.md)
 
 # Interface: RicardianContext
 
@@ -27,7 +27,7 @@
 
 **● $action**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:3](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/RicardianContext.ts#L3)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContext.ts#L3)*
 
 ___
 <a id="_clauses"></a>
@@ -36,7 +36,7 @@ ___
 
 **● $clauses**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:4](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/RicardianContext.ts#L4)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContext.ts#L4)*
 
 ___
 <a id="_transaction"></a>
@@ -45,7 +45,7 @@ ___
 
 **● $transaction**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:2](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/specVersions/v0.0/RicardianContext.ts#L2)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/RicardianContext.ts#L2)*
 
 ___
 

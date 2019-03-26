@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [ContractMetadata](../interfaces/_interfaces_.contractmetadata.md)
+[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [ContractMetadata](../interfaces/_interfaces_.contractmetadata.md)
 
 # Interface: ContractMetadata
 
@@ -28,7 +28,7 @@
 
 **● icon**: *`string`*
 
-*Defined in [interfaces.ts:24](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L24)*
+*Defined in [interfaces.ts:24](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L24)*
 
 ___
 <a id="spec_version"></a>
@@ -37,7 +37,7 @@ ___
 
 **● spec_version**: *`string`*
 
-*Defined in [interfaces.ts:21](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L21)*
+*Defined in [interfaces.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L21)*
 
 ___
 <a id="summary"></a>
@@ -46,7 +46,7 @@ ___
 
 **● summary**: *`string`*
 
-*Defined in [interfaces.ts:23](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L23)*
+*Defined in [interfaces.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L23)*
 
 ___
 <a id="title"></a>
@@ -55,7 +55,7 @@ ___
 
 **● title**: *`string`*
 
-*Defined in [interfaces.ts:22](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L22)*
+*Defined in [interfaces.ts:22](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L22)*
 
 ___
 

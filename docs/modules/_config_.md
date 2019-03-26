@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["config"](../modules/_config_.md)
+[ricardian-template-toolkit](../README.md) > ["config"](../modules/_config_.md)
 
 # External module: "config"
 
@@ -18,7 +18,7 @@
 
 **● MAX_PASSES**: *`3`* = 3
 
-*Defined in [config.ts:1](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/config.ts#L1)*
+*Defined in [config.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/config.ts#L1)*
 
 ___
 

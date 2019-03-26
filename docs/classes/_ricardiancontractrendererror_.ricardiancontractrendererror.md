@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md) > [RicardianContractRenderError](../classes/_ricardiancontractrendererror_.ricardiancontractrendererror.md)
+[ricardian-template-toolkit](../README.md) > ["RicardianContractRenderError"](../modules/_ricardiancontractrendererror_.md) > [RicardianContractRenderError](../classes/_ricardiancontractrendererror_.ricardiancontractrendererror.md)
 
 # Class: RicardianContractRenderError
 
@@ -45,7 +45,7 @@
 
 ⊕ **new RicardianContractRenderError**(message: * `string` &#124; [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): [RicardianContractRenderError](_ricardiancontractrendererror_.ricardiancontractrendererror.md)
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/RicardianContractRenderError.ts#L16)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 *Inherited from Error.message*
 
-*Defined in /Users/chris.allnutt/Documents/contract-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:904*
+*Defined in /Users/billwoodward/Projects/ricardian-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:904*
 
 ___
 <a id="name"></a>
@@ -78,7 +78,7 @@ ___
 
 *Inherited from Error.name*
 
-*Defined in /Users/chris.allnutt/Documents/contract-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:903*
+*Defined in /Users/billwoodward/Projects/ricardian-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:903*
 
 ___
 <a id="reason"></a>
@@ -88,7 +88,7 @@ ___
 **● reason**: * `string` &#124; `null`
 * =  null
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/RicardianContractRenderError.ts#L16)*
 
 ___
 <a id="stack"></a>
@@ -102,7 +102,7 @@ ___
 
 *Overrides Error.stack*
 
-*Defined in /Users/chris.allnutt/Documents/contract-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:905*
+*Defined in /Users/billwoodward/Projects/ricardian-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:905*
 
 ___
 <a id="tag"></a>
@@ -112,7 +112,7 @@ ___
 **● tag**: * `string` &#124; `null`
 * =  null
 
-*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/RicardianContractRenderError.ts#L15)*
+*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/RicardianContractRenderError.ts#L15)*
 
 ___
 <a id="error"></a>
@@ -121,7 +121,7 @@ ___
 
 **● Error**: *`ErrorConstructor`*
 
-*Defined in /Users/chris.allnutt/Documents/contract-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:914*
+*Defined in /Users/billwoodward/Projects/ricardian-template-toolkit/node_modules/typescript/lib/lib.es5.d.ts:914*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 ▸ **buildMessage**(messageArgs: * `string` &#124; [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): `string`
 
-*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/RicardianContractRenderError.ts#L7)*
+*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/RicardianContractRenderError.ts#L7)*
 
 **Parameters:**
 

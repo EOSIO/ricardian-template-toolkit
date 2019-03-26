@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["RicardianContractFactory"](../modules/_ricardiancontractfactory_.md)
+[ricardian-template-toolkit](../README.md) > ["RicardianContractFactory"](../modules/_ricardiancontractfactory_.md)
 
 # External module: "RicardianContractFactory"
 

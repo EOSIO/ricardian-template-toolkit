@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [TransactionActionAuthorization](../interfaces/_interfaces_.transactionactionauthorization.md)
+[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [TransactionActionAuthorization](../interfaces/_interfaces_.transactionactionauthorization.md)
 
 # Interface: TransactionActionAuthorization
 
@@ -26,7 +26,7 @@
 
 **● actor**: *`string`*
 
-*Defined in [interfaces.ts:29](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L29)*
+*Defined in [interfaces.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L29)*
 
 ___
 <a id="permission"></a>
@@ -35,7 +35,7 @@ ___
 
 **● permission**: *`string`*
 
-*Defined in [interfaces.ts:30](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L30)*
+*Defined in [interfaces.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L30)*
 
 ___
 

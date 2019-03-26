@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [SpecVersion](../interfaces/_interfaces_.specversion.md)
+[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [SpecVersion](../interfaces/_interfaces_.specversion.md)
 
 # Interface: SpecVersion
 
@@ -24,7 +24,7 @@
 
 **● major**: *`number`*
 
-*Defined in [interfaces.ts:63](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L63)*
+*Defined in [interfaces.ts:63](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L63)*
 
 ___
 <a id="minor"></a>
@@ -33,7 +33,7 @@ ___
 
 **● minor**: *`number`*
 
-*Defined in [interfaces.ts:64](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L64)*
+*Defined in [interfaces.ts:64](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L64)*
 
 ___
 <a id="patch"></a>
@@ -43,7 +43,7 @@ ___
 **● patch**: * `undefined` &#124; `number`
 *
 
-*Defined in [interfaces.ts:65](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L65)*
+*Defined in [interfaces.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L65)*
 
 ___
 

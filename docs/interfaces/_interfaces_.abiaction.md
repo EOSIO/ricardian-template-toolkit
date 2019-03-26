@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [AbiAction](../interfaces/_interfaces_.abiaction.md)
+[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md) > [AbiAction](../interfaces/_interfaces_.abiaction.md)
 
 # Interface: AbiAction
 
@@ -24,7 +24,7 @@
 
 **● name**: *`string`*
 
-*Defined in [interfaces.ts:15](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L15)*
+*Defined in [interfaces.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L15)*
 
 ___
 <a id="ricardian_contract"></a>
@@ -33,7 +33,7 @@ ___
 
 **● ricardian_contract**: *`string`*
 
-*Defined in [interfaces.ts:17](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L17)*
+*Defined in [interfaces.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L17)*
 
 ___
 <a id="type"></a>
@@ -42,7 +42,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in [interfaces.ts:16](https://github.com/EOSIO/contract-template-toolkit/blob/a1752bb/src/interfaces.ts#L16)*
+*Defined in [interfaces.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/3c49e9d/src/interfaces.ts#L16)*
 
 ___
 

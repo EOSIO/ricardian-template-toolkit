@@ -1,4 +1,4 @@
-[@blockone/ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md)
+[ricardian-template-toolkit](../README.md) > ["interfaces"](../modules/_interfaces_.md)
 
 # External module: "interfaces"
 

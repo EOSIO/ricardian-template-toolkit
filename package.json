@@ -1,6 +1,6 @@
 {
-  "name": "@blockone/ricardian-template-toolkit",
-  "version": "0.0.12",
+  "name": "ricardian-template-toolkit",
+  "version": "0.1.0",
   "description": "Ricardian Contract Template Toolkit for EOSIO applications.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

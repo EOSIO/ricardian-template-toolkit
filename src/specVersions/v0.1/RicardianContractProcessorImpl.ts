@@ -9,6 +9,22 @@ export class RicardianContractProcessorImpl extends RCP_0_0 {
 
   constructor() {
     super()
+
+    this.registerWrappedHelper('account_in_permission_level', (permissionLevel: any): string => {
+      if (permissionLevel.actor) {
+        return permissionLevel.actor
+      }
+
+      throw new RicardianContractRenderError(`No 'actor' found in given permission_level`)
+    })
+
+    this.registerWrappedHelper('permission_in_permission_level', (permissionLevel: any): string => {
+      if (permissionLevel.permission) {
+        return permissionLevel.permission
+      }
+
+      throw new RicardianContractRenderError(`No 'permission' found in given permission_level`)
+    })
   }
 
   /**
@@ -22,7 +38,7 @@ export class RicardianContractProcessorImpl extends RCP_0_0 {
       return super.process(config)
     } else {
       throw new RicardianContractRenderError(`Unexpected version encountered. ` +
-        `Found `)
+        `Found ${version}`)
     }
   }
 

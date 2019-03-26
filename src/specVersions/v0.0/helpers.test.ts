@@ -57,7 +57,7 @@ describe('tagTemplateVariables Helper', (): void => {
     const template = '{{from}} is sending {{ quantity }} to {{   to   }} for {{{memo}}}.'
     // tslint:disable-next-line:max-line-length
     const wrapped = '{{#wrap class="data"}}{{from}}{{/wrap}} is sending {{#wrap class="data"}}{{quantity}}{{/wrap}} to {{#wrap class="data"}}{{to}}{{/wrap}} for {{#wrap class="data"}}{{{memo}}}{{/wrap}}.'
-    expect(helpers.tagTemplateVariables(template)).toEqual(wrapped)
+    expect(helpers.tagTemplateVariables([ 'lookup' ], template)).toEqual(wrapped)
   })
 
   it('wraps all valid pseudo variables', (): void => {
@@ -65,7 +65,7 @@ describe('tagTemplateVariables Helper', (): void => {
     const template: string = '{{$transaction.delay_sec}} seconds will pass before the {{ $action.account }}::{{  $action.name  }} takes place. {{{$clauses.boilerplate}}}; {{$transaction.actions.[0].data.from}}'
     // tslint:disable-next-line:max-line-length
     const wrapped: string = '{{#wrap class="transaction"}}{{$transaction.delay_sec}}{{/wrap}} seconds will pass before the {{#wrap class="action"}}{{$action.account}}{{/wrap}}::{{#wrap class="action"}}{{$action.name}}{{/wrap}} takes place. {{#wrap class="clauses"}}{{{$clauses.boilerplate}}}{{/wrap}}; {{#wrap class="transaction"}}{{$transaction.actions.[0].data.from}}{{/wrap}}'
-    expect(helpers.tagTemplateVariables(template)).toEqual(wrapped)
+    expect(helpers.tagTemplateVariables([ 'lookup' ], template)).toEqual(wrapped)
   })
 
   it('does not wrap non-variable handlebars tags', (): void => {
@@ -73,20 +73,20 @@ describe('tagTemplateVariables Helper', (): void => {
     const template: string = '{{> from }} seconds will pass before the {{^$action.account}}::{{{^$action.name}}} takes place. {{{# $clauses.boilerplate }}}; {{/ $transaction.actions.[0].data.from }}. And {{valid}}.'
     // tslint:disable-next-line:max-line-length
     const wrapped: string = '{{> from }} seconds will pass before the {{^$action.account}}::{{{^$action.name}}} takes place. {{{# $clauses.boilerplate }}}; {{/ $transaction.actions.[0].data.from }}. And {{#wrap class="data"}}{{valid}}{{/wrap}}.'
-    expect(helpers.tagTemplateVariables(template)).toEqual(wrapped)
+    expect(helpers.tagTemplateVariables([ 'lookup' ], template)).toEqual(wrapped)
   })
 
   it('does not wrap \'if\' clause elements', () => {
     const template: string = 'This {{#if animal}}{{animal}}{{else}}{{mineral}}{{/if}} is kind of weird.'
     // tslint:disable-next-line:max-line-length
     const wrapped: string = 'This {{#if animal}}{{#wrap class="data"}}{{animal}}{{/wrap}}{{else}}{{#wrap class="data"}}{{mineral}}{{/wrap}}{{/if}} is kind of weird.'
-    expect(helpers.tagTemplateVariables(template)).toEqual(wrapped)
+    expect(helpers.tagTemplateVariables([ 'lookup' ], template)).toEqual(wrapped)
   })
 
   it('does not wrap variables surrounded by more than 3 brackets', (): void => {
     const template: string = '{{{{testing}}}} {{okay}} {{{not}}}} {{{{okay}}}'
     const wrapped: string = '{{{{testing}}}} {{#wrap class="data"}}{{okay}}{{/wrap}} {{{not}}}} {{{{okay}}}'
-    expect(helpers.tagTemplateVariables(template)).toEqual(wrapped)
+    expect(helpers.tagTemplateVariables([ 'lookup' ], template)).toEqual(wrapped)
   })
 })
 

@@ -27,16 +27,18 @@ export function hasVariable(text: string): boolean {
   return regex.test(text)
 }
 
-export function tagTemplateVariables(template: string): string {
-  const variableWrapper = new VariableWrapper((prefix, className, variable, suffix) => {
+export function tagTemplateVariables(wrappedHelpers: string[], template: string): string {
+  const variableWrapper = new VariableWrapper(wrappedHelpers, (prefix, className, variable, suffix) => {
     return `${prefix}{{#wrap class="${className}"}}${variable}{{/wrap}}${suffix}`
   })
 
   return variableWrapper.wrap(template)
 }
 
-export function tagMetadataVariables(metadata: { [index: string]: string }): { [index: string]: string } {
-  const variableWrapper = new VariableWrapper((prefix, className, variable, suffix) => {
+export function tagMetadataVariables(
+    wrappedHelpers: string[],
+    metadata: { [index: string]: string }): { [index: string]: string } {
+  const variableWrapper = new VariableWrapper(wrappedHelpers, (prefix, className, variable, suffix) => {
     return `${prefix}<div class="variable ${className}">${variable}</div>${suffix}`
   })
 

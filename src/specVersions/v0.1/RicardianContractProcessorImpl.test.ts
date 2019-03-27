@@ -12,7 +12,6 @@ describe('RicardianContractProcessorImp - v1.1', () => {
   const contractMetadata = '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n'
 
   describe('account_in_permission_level', () => {
-
     it('extracts the account from a permission_level object', () => {
       const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nAuthorization is given by <div class=\"variable data\">thegazelle</div><br />\n`
       const newAbi: Abi = {
@@ -57,6 +56,56 @@ describe('RicardianContractProcessorImp - v1.1', () => {
         actionIndex: 2,
       })
       expect(rc.getHtml()).toEqual(expectedHtml)
+    })
+  })
+
+  describe('amount_from_asset', () => {
+    it('extracts the amount from an asset variable string', () =>{
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring <div class="variable data">1500.0000</div> units of something<br />\n`
+      const newAbi: Abi = {
+        ...abi,
+        actions: [
+          {
+            name: 'transfer',
+            type: 'transfer',
+            ricardian_contract: contractMetadata +
+              '## Transfer Terms & Conditions\n\nTransferring {{amount_from_asset quantity}} units of something\n',
+          },
+        ],
+      }
+
+      const rc = rcp.process({
+        abi: newAbi,
+        transaction,
+        actionIndex: 0,
+      })
+      expect(rc.getHtml()).toEqual(expectedHtml)
+
+    })
+  })
+
+  describe('symbol_name_from_asset', () => {
+    it('extracts the amount from an asset variable string', () =>{
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring a random amount of <div class="variable data">EOS</div><br />\n`
+      const newAbi: Abi = {
+        ...abi,
+        actions: [
+          {
+            name: 'transfer',
+            type: 'transfer',
+            ricardian_contract: contractMetadata +
+              '## Transfer Terms & Conditions\n\nTransferring a random amount of {{symbol_name_from_asset quantity}}\n',
+          },
+        ],
+      }
+
+      const rc = rcp.process({
+        abi: newAbi,
+        transaction,
+        actionIndex: 0,
+      })
+      expect(rc.getHtml()).toEqual(expectedHtml)
+
     })
   })
 

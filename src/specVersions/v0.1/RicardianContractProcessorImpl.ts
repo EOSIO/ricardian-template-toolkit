@@ -2,6 +2,7 @@ import { RicardianContract, RicardianContractConfig } from '../../interfaces'
 import { RicardianContractRenderError } from '../../RicardianContractRenderError'
 import { getContractSpecVersion } from '../../utils/contractUtils'
 import { RicardianContractProcessorImpl as RCP_0_0 } from '../v0.0/RicardianContractProcessorImpl'
+import { parseAsset } from './helpers'
 
 export class RicardianContractProcessorImpl extends RCP_0_0 {
   private readonly major = 0
@@ -24,6 +25,14 @@ export class RicardianContractProcessorImpl extends RCP_0_0 {
       }
 
       throw new RicardianContractRenderError(`No 'permission' found in given permission_level`)
+    })
+
+    this.registerWrappedHelper('amount_from_asset', (asset: string): string => {
+      return parseAsset(asset).amount
+    })
+
+    this.registerWrappedHelper('symbol_name_from_asset', (asset: string): string => {
+      return parseAsset(asset).symbol
     })
   }
 

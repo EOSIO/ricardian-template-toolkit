@@ -59,4 +59,51 @@ describe('RicardianContractProcessorImp - v1.1', () => {
       expect(rc.getHtml()).toEqual(expectedHtml)
     })
   })
+
+  describe('verify if', () => {
+    it('should detect presence of field in action data', () => {
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring <div class="variable data">1500.0000 EOS</div><br />\n`
+      const newAbi: Abi = {
+        ...abi,
+        actions: [
+          {
+            name: 'transfer',
+            type: 'transfer',
+            ricardian_contract: contractMetadata +
+              '## Transfer Terms & Conditions\n\nTransferring {{#if quantity}}{{quantity}}{{/if}}\n',
+          },
+        ],
+      }
+
+      const rc = rcp.process({
+        abi: newAbi,
+        transaction,
+        actionIndex: 0,
+      })
+      expect(rc.getHtml()).toEqual(expectedHtml)
+    })
+
+    it('should detect absense of field in action data', () => {
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring<br />\n`
+      const newAbi: Abi = {
+        ...abi,
+        actions: [
+          {
+            name: 'transfer',
+            type: 'transfer',
+            ricardian_contract: contractMetadata +
+              '## Transfer Terms & Conditions\n\nTransferring {{#if cheese}}Why do we have cheese? {{cheese}}{{/if}}\n',
+          },
+        ],
+      }
+
+      const rc = rcp.process({
+        abi: newAbi,
+        transaction,
+        actionIndex: 0,
+      })
+      expect(rc.getHtml()).toEqual(expectedHtml)
+    })
+
+  })
 })

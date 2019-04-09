@@ -1,5 +1,11 @@
 # EOSIO Ricardian Template Toolkit ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
 
+## Overview
+
+The Ricardian Template Toolkit is an implementation of a renderer for the [Ricardian Contract Specification](https://github.com/EOSIO/ricardian-spec) that demonstrates how Ricardian Contracts built to the specification can be displayed. This toolkit can be used by Authenticator developers to consistently render Ricardian Contracts and by Smart Contract developers as an authoring and testing tool.
+
+Together, the Ricardian Template Toolkit and Ricardian Contract Specification projects enable a clear understanding of the agreements to which users are consenting in Authenticators which ask them to sign transactions.
+
 This library contains a factory that takes an ABI object, a transaction object, and an action index (along with some developer-oriented flags). It then:
 
 1. Selects an appropriate processor based on the `spec_version` field in the contract metadata

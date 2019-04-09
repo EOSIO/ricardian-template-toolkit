@@ -1,4 +1,6 @@
-# EOSIO Ricardian Template Toolkit ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
+# EOSIO.CDT Ricardian Template Toolkit ![EOSIO Alpha](https://img.shields.io/badge/EOSIO-Alpha-blue.svg)
+
+This library is a new tool in the suite of tools from [EOSIO.CDT (Contract Development Toolkit)](https://github.com/eosio/eosio.cdt), and should allow for a more robust and rich environment for writing **Ricardian** contracts for your **EOSIO** smart contracts.
 
 This library contains a factory that takes an ABI object, a transaction object, and an action index (along with some developer-oriented flags). It then:
 

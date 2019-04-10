@@ -60,7 +60,7 @@ describe('RicardianContractProcessorImp - v1.1', () => {
   })
 
   describe('amount_from_asset', () => {
-    it('extracts the amount from an asset variable string', () =>{
+    it('extracts the amount from an asset variable string', () => {
       const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring <div class="variable data">1500.0000</div> units of something<br />\n`
       const newAbi: Abi = {
         ...abi,
@@ -85,7 +85,7 @@ describe('RicardianContractProcessorImp - v1.1', () => {
   })
 
   describe('symbol_name_from_asset', () => {
-    it('extracts the amount from an asset variable string', () =>{
+    it('extracts the amount from an asset variable string', () => {
       const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nTransferring a random amount of <div class="variable data">EOS</div><br />\n`
       const newAbi: Abi = {
         ...abi,

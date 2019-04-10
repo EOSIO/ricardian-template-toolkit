@@ -1,4 +1,4 @@
-import { RicardianContractRenderError } from '../../RicardianContractRenderError';
+import { RicardianContractRenderError } from '../../RicardianContractRenderError'
 import { parseAsset } from './helpers'
 
 describe('parseAsset', () => {

@@ -3,6 +3,7 @@
 
 # Include distribution bundle but exclude test files if they are built into dist
 !dist/**
+!bin/**
 *.test.*
 testfixtures
 

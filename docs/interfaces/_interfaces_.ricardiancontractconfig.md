@@ -26,7 +26,7 @@
 
 **● abi**: *[Abi](_interfaces_.abi.md)*
 
-*Defined in [interfaces.ts:55](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L55)*
+*Defined in [interfaces.ts:55](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L55)*
 
 ___
 <a id="actionindex"></a>
@@ -35,7 +35,7 @@ ___
 
 **● actionIndex**: *`number`*
 
-*Defined in [interfaces.ts:57](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L57)*
+*Defined in [interfaces.ts:57](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L57)*
 
 ___
 <a id="allowunusedvariables"></a>
@@ -45,7 +45,7 @@ ___
 **● allowUnusedVariables**: * `undefined` &#124; `false` &#124; `true`
 *
 
-*Defined in [interfaces.ts:59](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L59)*
+*Defined in [interfaces.ts:59](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L59)*
 
 ___
 <a id="maxpasses"></a>
@@ -55,7 +55,7 @@ ___
 **● maxPasses**: * `undefined` &#124; `number`
 *
 
-*Defined in [interfaces.ts:58](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L58)*
+*Defined in [interfaces.ts:58](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L58)*
 
 ___
 <a id="transaction"></a>
@@ -64,7 +64,7 @@ ___
 
 **● transaction**: *[Transaction](_interfaces_.transaction.md)*
 
-*Defined in [interfaces.ts:56](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L56)*
+*Defined in [interfaces.ts:56](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L56)*
 
 ___
 

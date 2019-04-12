@@ -13,7 +13,7 @@ describe('RicardianContractProcessorImp - v1.1', () => {
 
   describe('account_in_permission_level', () => {
     it('extracts the account from a permission_level object', () => {
-      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nAuthorization is given by <div class=\"variable data\">thegazelle</div><br />\n`
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nAuthorization is given by <div class=\"variable data\">bobsmith</div><br />\n`
       const newAbi: Abi = {
         ...abi,
         actions: [

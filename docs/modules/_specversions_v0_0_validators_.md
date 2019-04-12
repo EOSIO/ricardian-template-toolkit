@@ -20,7 +20,7 @@
 
 ▸ **validateIcon**(icon?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/validators.ts#L30)*
+*Defined in [specVersions/v0.0/validators.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/validators.ts#L30)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **validateSummary**(summary?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/validators.ts#L17)*
+*Defined in [specVersions/v0.0/validators.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/validators.ts#L17)*
 
 **Parameters:**
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **validateTitle**(title?: * `string` &#124; `null`*): `void`
 
-*Defined in [specVersions/v0.0/validators.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.0/validators.ts#L6)*
+*Defined in [specVersions/v0.0/validators.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/validators.ts#L6)*
 
 **Parameters:**
 

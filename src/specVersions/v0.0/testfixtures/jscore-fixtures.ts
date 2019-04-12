@@ -61,13 +61,13 @@ export default {
         name: 'multitransf',
         authorization: [
           {
-            actor: 'remasteryoda',
+            actor: 'alicejones',
             permission: 'active',
           },
         ],
         data: {
-          from: 'remasteryoda',
-          to: 'thegazelle',
+          from: 'alicejones',
+          to: 'bobsmith',
           quantities: ['123.0000 EOS', '456.0000 ABC', '789.0000 DEF'],
           memos: ['<i>Super</i> EOS', 'I know you like <strong>ABC</strong> tokens'],
         },
@@ -77,13 +77,13 @@ export default {
         name: 'transfer',
         authorization: [
           {
-            actor: 'thegazelle',
+            actor: 'bobsmith',
             permission: 'active',
           },
         ],
         data: {
-          from: 'thegazelle',
-          to: 'remasteryoda',
+          from: 'bobsmith',
+          to: 'alicejones',
           quantity: '123.0000 EOS',
           memo: 'Testing.',
         },

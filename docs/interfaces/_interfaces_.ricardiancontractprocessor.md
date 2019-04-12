@@ -28,7 +28,7 @@
 
 ▸ **getSpecVersion**(): [SpecVersion](_interfaces_.specversion.md)
 
-*Defined in [interfaces.ts:74](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L74)*
+*Defined in [interfaces.ts:74](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L74)*
 
 **Returns:** [SpecVersion](_interfaces_.specversion.md)
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **process**(config: *[RicardianContractConfig](_interfaces_.ricardiancontractconfig.md)*): [RicardianContract](_interfaces_.ricardiancontract.md)
 
-*Defined in [interfaces.ts:75](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L75)*
+*Defined in [interfaces.ts:75](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L75)*
 
 **Parameters:**
 

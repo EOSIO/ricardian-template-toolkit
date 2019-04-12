@@ -92,13 +92,13 @@ export const complexTransferTransaction: string = `{
       "name": "multitransf",
       "authorization": [
         {
-          "actor": "remasteryoda",
+          "actor": "alicejones",
           "permission": "active"
         }
       ],
       "data": {
-        "from": "remasteryoda",
-        "to": "thegazelle",
+        "from": "alicejones",
+        "to": "bobsmith",
         "quantities": ["123.0000 EOS", "456.0000 ABC", "789.0000 DEF"],
         "memos": ["<i>Super</i> EOS", "I know you like <strong>ABC</strong> tokens"]
       }
@@ -108,13 +108,13 @@ export const complexTransferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "thegazelle",
+          "actor": "bobsmith",
           "permission": "active"
         }
       ],
       "data": {
-        "from": "thegazelle",
-        "to": "remasteryoda",
+        "from": "bobsmith",
+        "to": "alicejones",
         "quantity": "123.0000 EOS",
         "memo": "Testing."
       }
@@ -306,7 +306,7 @@ export const complexExpectedMetadata =
   "spec_version": "0.0.0",
   "title": "Multi Token Transfer",
   "icon": "https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562",
-  "summary": "Transfer multiple different tokens from <div class=\\"variable data\\">remasteryoda</div> to <div class=\\"variable data\\">thegazelle</div>."
+  "summary": "Transfer multiple different tokens from <div class=\\"variable data\\">alicejones</div> to <div class=\\"variable data\\">bobsmith</div>."
 }`
 
 export const complexExpectedHtml =
@@ -315,11 +315,11 @@ export const complexExpectedHtml =
 <p>This contract action is <strong>NOT</strong> a real one, and not related to <code>eosio.token</code> at all.<br /><br />
 Just an example of testing all the contract parsings with handlebars.</p><br />
 <h2>Transfer Terms & Conditions</h2>
-I, <div class="variable data">remasteryoda</div>, certify the following to be true to the best of my knowledge:<br />
+I, <div class="variable data">alicejones</div>, certify the following to be true to the best of my knowledge:<br />
 <ol>
 <li>I certify that the total amount of this transfer does not the proceeds of fraudulent or violent activities.</li>
-<li>I certify that, to the best of my knowledge, <div class="variable data">thegazelle</div> is not supporting initiation of violence against others.</li>
-<li>I have disclosed any contractual terms & conditions with respect to <div class="variable data">thegazelle</div>.</li>
+<li>I certify that, to the best of my knowledge, <div class="variable data">bobsmith</div> is not supporting initiation of violence against others.</li>
+<li>I have disclosed any contractual terms & conditions with respect to <div class="variable data">bobsmith</div>.</li>
 </ol>
 The transfered tokens are:<br />
 <ul>
@@ -330,8 +330,8 @@ The transfered tokens are:<br />
 And these are the reasons:<br />
 <div class="variable data"><i>Super</i> EOS</div><br />
 <div class="variable data">I know you like <strong>ABC</strong> tokens</div><br />
-I understand that funds transfers are not reversible after the <div class="variable transaction">0</div> seconds or other delay as configured by <div class="variable data">remasteryoda</div>\'s permissions.<br />
-If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class="variable data">thegazelle</div>\', I agree to either return the goods or services or resend all over again in a timely manner.<br />
+I understand that funds transfers are not reversible after the <div class="variable transaction">0</div> seconds or other delay as configured by <div class="variable data">alicejones</div>\'s permissions.<br />
+If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class="variable data">bobsmith</div>\', I agree to either return the goods or services or resend all over again in a timely manner.<br />
 <h3>Transaction metadata</h3>
 <ul>
 <li>expiration: <div class="variable transaction">2018-08-14T20:38:58</div></li>
@@ -347,13 +347,13 @@ If this action fails to be irreversibly confirmed after receiving goods or servi
 <li>account: <div class="variable action">eosio.token</div><br /></li>
 <li>name: <div class="variable action">multitransf</div><br /></li>
 <li>authorization: <div class="variable action">[object Object]</div><br /></li>
-<li>authorization.[0].actor: <div class="variable action">remasteryoda</div><br /></li>
+<li>authorization.[0].actor: <div class="variable action">alicejones</div><br /></li>
 <li>authorization.[0].permission: <div class="variable action">active</div><br />
 <h3>That\'s not all!!! :)</h3>
 I\'m also sending you <div class="variable transaction">123.0000 EOS</div> - because <div class="variable transaction">Testing.</div><br /></li>
 </ul>
 <h4>Transaction Contract Clauses</h4>
-<div class="variable clauses">I, <div class="variable data">remasteryoda</div>, swear by the moon and the stars in the sky<br />
+<div class="variable clauses">I, <div class="variable data">alicejones</div>, swear by the moon and the stars in the sky<br />
 I\'ll be there<br />
 I swear like a shadow that\'s by your side<br />
 I\'ll be there<br />
@@ -361,5 +361,5 @@ For better or worse, till death do us part<br />
 I\'ll love you with every beat of my heart<br />
 And I swear</div><br />
 <div class="variable clauses"><img src="https://files.readme.io/aeb2530-small-logo_2x.png#HA8HG03SH3R3" alt="EOS ricardian_contract_images" /></div><br />
-<div class="variable clauses">You are sending this transfer from the account: <div class="variable data">remasteryoda</div></div><br />
+<div class="variable clauses">You are sending this transfer from the account: <div class="variable data">alicejones</div></div><br />
 `

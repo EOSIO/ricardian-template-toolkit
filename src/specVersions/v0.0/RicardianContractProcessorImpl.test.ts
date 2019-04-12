@@ -25,17 +25,17 @@ const ricardianMetadata: ContractMetadata = {
 }
 // tslint:disable:max-line-length
 const ricardianHtml: string = `<h2>Transfer Terms & Conditions</h2>
-I, <div class=\"variable data\">thegazelle</div>, certify the following to be true to the best of my knowledge:<br />
+I, <div class=\"variable data\">bobsmith</div>, certify the following to be true to the best of my knowledge:<br />
 <ol>
 <li>I certify that <div class=\"variable data\">123.0000 EOS</div> is not the proceeds of fraudulent or violent activities.</li>
-<li>I certify that, to the best of my knowledge, <div class=\"variable data\">remasteryoda</div> is not supporting initiation of violence against others.</li>
-<li>I have disclosed any contractual terms & conditions with respect to <div class=\"variable data\">123.0000 EOS</div> to <div class=\"variable data\">remasteryoda</div>.</li>
+<li>I certify that, to the best of my knowledge, <div class=\"variable data\">alicejones</div> is not supporting initiation of violence against others.</li>
+<li>I have disclosed any contractual terms & conditions with respect to <div class=\"variable data\">123.0000 EOS</div> to <div class=\"variable data\">alicejones</div>.</li>
 </ol>
-I understand that funds transfers are not reversible after the <div class=\"variable transaction\">0</div> seconds or other delay as configured by <div class=\"variable data\">thegazelle</div>\'s permissions.<br />
-If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class=\"variable data\">remasteryoda</div>\', I agree to either return the goods or services or resend <div class=\"variable data\">123.0000 EOS</div> in a timely manner.<br />
+I understand that funds transfers are not reversible after the <div class=\"variable transaction\">0</div> seconds or other delay as configured by <div class=\"variable data\">bobsmith</div>\'s permissions.<br />
+If this action fails to be irreversibly confirmed after receiving goods or services from \'<div class=\"variable data\">alicejones</div>\', I agree to either return the goods or services or resend <div class=\"variable data\">123.0000 EOS</div> in a timely manner.<br />
 <div class=\"variable clauses\">You are sending this transfer with the following memo: <div class=\"variable data\">Testing.</div></div><br />
 Oh, and one more thing...<br />
-<div class=\"variable clauses\">I, <div class=\"variable data\">thegazelle</div>, swear by the moon and the stars in the sky<br />
+<div class=\"variable clauses\">I, <div class=\"variable data\">bobsmith</div>, swear by the moon and the stars in the sky<br />
 I\'ll be there<br />
 I swear like a shadow that\'s by your side<br />
 I\'ll be there<br />
@@ -98,7 +98,7 @@ describe('RicardianContract', (): void => {
         maxPasses: 2,
       })
       // tslint:disable-next-line:max-line-length
-      expect(exactRc.getMetadata().summary).toEqual('<div class="variable metadata">Transfer from <div class="variable data">thegazelle</div> to <div class="variable data">remasteryoda</div></div>')
+      expect(exactRc.getMetadata().summary).toEqual('<div class="variable metadata">Transfer from <div class="variable data">bobsmith</div> to <div class="variable data">alicejones</div></div>')
 
     })
 
@@ -107,7 +107,7 @@ describe('RicardianContract', (): void => {
   describe('when variables appear in the contract body', () => {
     it('wraps variables in <div> tags', () => {
       // tslint:disable-next-line:max-line-length
-      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the <div class=\"variable metadata\">Transfer from <div class=\"variable data\">thegazelle</div> to <div class=\"variable data\">remasteryoda</div></div><br />\n`
+      const expectedHtml = `<h2>Transfer Terms & Conditions</h2>\nThis contract describes the <div class=\"variable metadata\">Transfer from <div class=\"variable data\">bobsmith</div> to <div class=\"variable data\">alicejones</div></div><br />\n`
       const newAbi: Abi = {
         ...abi,
         actions: [
@@ -178,7 +178,7 @@ describe('RicardianContract', (): void => {
   describe('when variables appear in metadata', (): void => {
     it('replaces variables except in title or icon metadata', (): void => {
       // tslint:disable-next-line:max-line-length
-      const expectedSummary = 'Transfer tokens from <div class="variable data">remasteryoda</div> to <div class="variable data">thegazelle</div>.'
+      const expectedSummary = 'Transfer tokens from <div class="variable data">alicejones</div> to <div class="variable data">bobsmith</div>.'
       const newAbi: Abi = {
         ...abi,
         actions: [
@@ -240,7 +240,7 @@ describe('RicardianContract', (): void => {
     })
 
     it('replaces variables in non-standard metadata', (): void => {
-      const expectedSender = '<div class="variable data">remasteryoda</div>'
+      const expectedSender = '<div class="variable data">alicejones</div>'
       const newAbi: Abi = {
         ...abi,
         actions: [

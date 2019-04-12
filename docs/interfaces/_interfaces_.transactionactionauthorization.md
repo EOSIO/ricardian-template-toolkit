@@ -26,7 +26,7 @@
 
 **● actor**: *`string`*
 
-*Defined in [interfaces.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L29)*
+*Defined in [interfaces.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L29)*
 
 ___
 <a id="permission"></a>
@@ -35,7 +35,7 @@ ___
 
 **● permission**: *`string`*
 
-*Defined in [interfaces.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/interfaces.ts#L30)*
+*Defined in [interfaces.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L30)*
 
 ___
 

@@ -27,6 +27,7 @@
 
 * [getSpecVersion](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)
 * [process](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)
+* [registerWrappedHelper](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)
 
 ---
 
@@ -40,7 +41,7 @@
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[constructor](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L8)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L9)*
 
 **Returns:** [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
@@ -54,7 +55,7 @@ ___
 
 **● major**: *`0`* = 0
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L7)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L8)*
 
 ___
 <a id="minor"></a>
@@ -63,7 +64,7 @@ ___
 
 **● minor**: *`1`* = 1
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L8)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L9)*
 
 ___
 
@@ -79,7 +80,7 @@ ___
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[getSpecVersion](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L29)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:54](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L54)*
 
 **Returns:** `object`
 
@@ -94,7 +95,7 @@ ___
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[process](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/79eb9a7/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L19)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L44)*
 
 Process the RicardianContractConfig and return a RicardianContract.
 
@@ -105,6 +106,26 @@ Process the RicardianContractConfig and return a RicardianContract.
 | config | [RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md) |  A \`RicardianContractConfig\` object |
 
 **Returns:** [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
+
+___
+<a id="registerwrappedhelper"></a>
+
+### `<Protected>` registerWrappedHelper
+
+▸ **registerWrappedHelper**(name: *`string`*, fn: *`HelperDelegate`*): `void`
+
+*Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[registerWrappedHelper](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)*
+
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:56](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L56)*
+
+**Parameters:**
+
+| Param | Type |
+| ------ | ------ |
+| name | `string` |
+| fn | `HelperDelegate` |
+
+**Returns:** `void`
 
 ___
 

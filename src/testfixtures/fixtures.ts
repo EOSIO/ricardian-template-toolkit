@@ -13,13 +13,13 @@ export const transferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "remasteryoda",
+          "actor": "alicejones",
           "permission": "active"
         }
       ],
       "data": {
-        "from": "remasteryoda",
-        "to": "thegazelle",
+        "from": "alicejones",
+        "to": "bobsmith",
         "quantity": "1500.0000 EOS",
         "memo": "This is a test of the emergency broadcasting system."
       }
@@ -29,13 +29,13 @@ export const transferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "thegazelle",
+          "actor": "bobsmith",
           "permission": "active"
         }
       ],
       "data": {
-        "from": "thegazelle",
-        "to": "remasteryoda",
+        "from": "bobsmith",
+        "to": "alicejones",
         "quantity": "123.0000 EOS",
         "memo": "Testing."
       }
@@ -45,13 +45,13 @@ export const transferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "thegazelle",
+          "actor": "bobsmith",
           "permission": "active"
         }
       ],
       "data": {
-        "from": "thegazelle",
-        "to": "remasteryoda",
+        "from": "bobsmith",
+        "to": "alicejones",
         "quantity": "123.0000 EOS",
         "memo": "Testing.",
         "$metadata": {
@@ -77,14 +77,14 @@ export const indexedTransferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "remasteryoda",
+          "actor": "alicejones",
           "permission": "active",
           "$index": 0
         }
       ],
       "data": {
-        "from": "remasteryoda",
-        "to": "thegazelle",
+        "from": "alicejones",
+        "to": "bobsmith",
         "quantity": "1500.0000 EOS",
         "memo": "This is a test of the emergency broadcasting system."
       },
@@ -95,14 +95,14 @@ export const indexedTransferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "thegazelle",
+          "actor": "bobsmith",
           "permission": "active",
           "$index": 0
         }
       ],
       "data": {
-        "from": "thegazelle",
-        "to": "remasteryoda",
+        "from": "bobsmith",
+        "to": "alicejones",
         "quantity": "123.0000 EOS",
         "memo": "Testing."
       },
@@ -113,14 +113,14 @@ export const indexedTransferTransaction: string = `{
       "name": "transfer",
       "authorization": [
         {
-          "actor": "thegazelle",
+          "actor": "bobsmith",
           "permission": "active",
           "$index": 0
         }
       ],
       "data": {
-        "from": "thegazelle",
-        "to": "remasteryoda",
+        "from": "bobsmith",
+        "to": "alicejones",
         "quantity": "123.0000 EOS",
         "memo": "Testing.",
         "$metadata": {

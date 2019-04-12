@@ -13,13 +13,13 @@
         "name": "multitransf",
         "authorization": [
           {
-            "actor": "remasteryoda",
+            "actor": "bobsmith",
             "permission": "active"
           }
         ],
         "data": {
-          "from": "remasteryoda",
-          "to": "thegazelle",
+          "from": "bobsmith",
+          "to": "alicejones",
           "quantities": [
             "123.0000 EOS",
             "456.0000 ABC",
@@ -36,13 +36,13 @@
         "name": "transfer",
         "authorization": [
           {
-            "actor": "thegazelle",
+            "actor": "alicejones",
             "permission": "active"
           }
         ],
         "data": {
-          "from": "thegazelle",
-          "to": "remasteryoda",
+          "from": "alicejones",
+          "to": "bobsmith",
           "quantity": "123.0000 EOS",
           "memo": "Testing."
         }

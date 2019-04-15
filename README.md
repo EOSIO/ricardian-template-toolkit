@@ -79,7 +79,7 @@ const html = ricardianContract.getHtml()
 Be aware that for backward compatibility with contract specifications prior to `0.1.0`, any contracts
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
 
-## Example Output
+## Example
 
 Raw HTML Output
 ```

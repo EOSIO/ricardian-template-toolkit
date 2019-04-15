@@ -76,7 +76,7 @@ describe('summary validator', () => {
 
   it('passes a summary ignoring html tags', () => {
     // tslint:disable-next-line:max-line-length
-    const summary = 'This <div class="variable data">summary with variable</div> should still be ok even if too long with the tags in place'
+    const summary = 'This <div class="variable data">summary with variable</div> should still be ok even if too long with the tags in place because html tags are removed.'
     expect(() => { validators.validateSummary(summary) })
       .not.toThrow(RicardianContractRenderError)
   })

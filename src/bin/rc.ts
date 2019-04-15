@@ -31,7 +31,7 @@ function parseArgs() {
       },
       'max-passes': {
         alias: 'm',
-        describe: 'Maxinum number of variable interpolation passes to perform',
+        describe: 'Maximum number of variable interpolation passes to perform',
         default: 3,
         type: 'number',
       }

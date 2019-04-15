@@ -20,7 +20,7 @@ export function validateSummary(summary?: string | null) {
     throw new RicardianContractRenderError('Missing Required Field: summary')
   } else {
     // Don't want to count HTML tags wrapping any vars as part of the len
-    const stripped = summary.replace(/<.+?>/, '')
+    const stripped = summary.replace(/<.+?>/g, '')
     if (stripped!.length > maxLen) {
       throw new RicardianContractRenderError(`Summary must be no more than ${maxLen} characters`)
     }

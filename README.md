@@ -80,7 +80,7 @@ Be aware that for backward compatibility with contract specifications prior to `
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
 
 ## Example
-The following is based on the [example from the Ricardian Spec](https://github.com/EOSIO/ricardian-spec#example-template)
+The following is based on the [example from the Ricardian Contract Specification](https://github.com/EOSIO/ricardian-spec#example-template)
 
 Raw HTML Output
 ```

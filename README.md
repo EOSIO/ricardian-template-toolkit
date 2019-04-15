@@ -109,7 +109,7 @@ Styled HTML
   </head>
 
   <body>
-    I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">A Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
+    I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
     <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by EOS.IO Blockchain Block Producers.</div><br />
   </body>
 </html>

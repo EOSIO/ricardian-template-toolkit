@@ -44,8 +44,6 @@ yarn example
 
 The Ricardian Specification and an example of a compliant Ricardian contract can now be found at https://github.com/EOSIO/ricardian-spec.
 
-**Notice:** currently only version [`v0.1.0` of the Ricardian Specification](https://github.com/EOSIO/ricardian-spec/tree/v0.1.0) is supported by this library.
-
 ## Usage
 
 Usage is very straightforward:
@@ -80,6 +78,43 @@ const html = ricardianContract.getHtml()
 
 Be aware that for backward compatibility with contract specifications prior to `0.1.0`, any contracts
 lacking a `spec_version` in the metadata are treated as following spec version `0.0.0`.
+
+## Example Output
+
+Raw HTML Output
+```
+I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">An Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
+<div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by EOS.IO Blockchain Block Producers.</div><br  />
+```
+
+Styled HTML
+```
+<html>
+  <head>
+    <style>
+      * {
+        font-family: serif;
+      }
+      body {
+        margin: 1rem 2rem;
+      }
+      .variable {
+        display: inline;
+        color: DarkRed;
+        font-style: italic;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    I, <div class="variable data">bobsmith</div>, author of the blog post "<div class="variable data">A Example Post</div>", certify that I am the original author of the contents of this blog post and have attributed all external sources appropriately.<br />
+    <div class="variable clauses">WARRANTY. The invoker of the contract action shall uphold its Obligations under this Contract in a timely and workmanlike manner, using knowledge and recommendations for performing the services which meet generally acceptable standards set forth by EOS.IO Blockchain Block Producers.</div><br />
+  </body>
+</html>
+```
+Rendered Styled HTML
+<img src=".images/styled-example.png" alt="Styled HTML Example" width="800">
 
 ## Contributing
 

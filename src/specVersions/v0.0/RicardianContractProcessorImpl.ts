@@ -39,16 +39,20 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
         + '</div>'
     })
 
-    this.registerWrappedHelper('symbol_to_symbol_code', (symbol: string): string => {
-      return extractSymbolCode(symbol)
+    this.registerWrappedHelper('symbol_to_symbol_code', (symbol: string) => {
+      return new Handlebars.SafeString(extractSymbolCode(symbol))
     })
 
-    this.registerWrappedHelper('asset_to_symbol_code', (asset: string): string => {
-      return extractSymbolCode(asset)
+    this.registerWrappedHelper('asset_to_symbol_code', (asset: string) => {
+      return new Handlebars.SafeString(extractSymbolCode(asset))
     })
 
-    Handlebars.registerHelper('nowrap', (text: string): string => {
-      return text
+    Handlebars.registerHelper('to_json', (obj: string) => {
+      return new Handlebars.SafeString('```\n' + JSON.stringify(obj, null, 2) + '\n```')
+    })
+
+    Handlebars.registerHelper('nowrap', (text: string) => {
+      return new Handlebars.SafeString(text)
     })
   }
 

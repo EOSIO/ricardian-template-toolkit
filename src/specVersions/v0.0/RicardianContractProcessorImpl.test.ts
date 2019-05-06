@@ -173,6 +173,54 @@ describe('RicardianContract', (): void => {
       })
       expect(rc.getHtml()).toEqual(expectedHtml)
     })
+
+    it.only('dumps variable as JSON', () => {
+      // tslint:disable:max-line-length
+      const expectedHtml =
+`<h2>We got a action over here!</h2>
+<pre><code>{
+  "account": "eosio.token",
+  "name": "transfer",
+  "authorization": [
+    {
+      "actor": "bobsmith",
+      "permission": "active",
+      "$index": 0
+    }
+  ],
+  "data": {
+    "from": "bobsmith",
+    "to": "alicejones",
+    "quantity": "123.0000 EOS",
+    "memo": "Testing.",
+    "$metadata": {
+      "summary": "Transfer from <div class="variable data">bobsmith</div> to <div class="variable data">alicejones</div>"
+    }
+  },
+  "$index": 2
+}
+</code></pre>
+`
+      // tslint:enable:max-line-length
+      const newAbi: Abi = {
+        ...abi,
+        actions: [
+          {
+            name: 'transfer',
+            type: 'transfer',
+            // tslint:disable-next-line:max-line-length
+            ricardian_contract: '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n## We got a action over here!\n{{to_json $action}}\n',
+          },
+        ],
+      }
+
+      const rc = rcp.process({
+        abi: newAbi,
+        transaction,
+        actionIndex: 2,
+      })
+      expect(rc.getHtml()).toEqual(expectedHtml)
+    })
   })
 
   describe('when variables appear in metadata', (): void => {

@@ -23,7 +23,7 @@
 
 **● reason**: *`string`*
 
-*Defined in [RicardianContractRenderError.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L3)*
+*Defined in [RicardianContractRenderError.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/RicardianContractRenderError.ts#L3)*
 
 ___
 <a id="tag"></a>
@@ -32,7 +32,7 @@ ___
 
 **● tag**: *`string`*
 
-*Defined in [RicardianContractRenderError.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L2)*
+*Defined in [RicardianContractRenderError.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/RicardianContractRenderError.ts#L2)*
 
 ___
 

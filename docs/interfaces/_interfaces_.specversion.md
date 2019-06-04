@@ -24,7 +24,7 @@
 
 **● major**: *`number`*
 
-*Defined in [interfaces.ts:63](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L63)*
+*Defined in [interfaces.ts:63](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L63)*
 
 ___
 <a id="minor"></a>
@@ -33,17 +33,16 @@ ___
 
 **● minor**: *`number`*
 
-*Defined in [interfaces.ts:64](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L64)*
+*Defined in [interfaces.ts:64](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L64)*
 
 ___
 <a id="patch"></a>
 
 ### `<Optional>` patch
 
-**● patch**: * `undefined` &#124; `number`
-*
+**● patch**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L65)*
+*Defined in [interfaces.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L65)*
 
 ___
 

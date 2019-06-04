@@ -24,7 +24,7 @@
   'area', 'base', 'br', 'col', 'command', 'hr', 'img', 'input', 'keygen', 'link', 'meta', 'param', 'source',
 ]
 
-*Defined in [specVersions/v0.0/whitelist.ts:126](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L126)*
+*Defined in [specVersions/v0.0/whitelist.ts:126](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L126)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 **WhiteList**: *`object`*
 
-*Defined in [specVersions/v0.0/whitelist.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L1)*
+*Defined in [specVersions/v0.0/whitelist.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L1)*
 
 <a id="whitelist._commonattrs_"></a>
 
@@ -114,7 +114,7 @@ ___
     'itemprop',
   ]
 
-*Defined in [specVersions/v0.0/whitelist.ts:52](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L52)*
+*Defined in [specVersions/v0.0/whitelist.ts:52](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L52)*
 
 ___
 <a id="whitelist.a"></a>
@@ -123,7 +123,7 @@ ___
 
 **● a**: *`string`[]* =  ['href']
 
-*Defined in [specVersions/v0.0/whitelist.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L15)*
+*Defined in [specVersions/v0.0/whitelist.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L15)*
 
 ___
 <a id="whitelist.b"></a>
@@ -132,7 +132,7 @@ ___
 
 **● b**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L11)*
+*Defined in [specVersions/v0.0/whitelist.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L11)*
 
 ___
 <a id="whitelist.blockquote"></a>
@@ -141,7 +141,7 @@ ___
 
 **● blockquote**: *`string`[]* =  ['cite']
 
-*Defined in [specVersions/v0.0/whitelist.ts:32](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L32)*
+*Defined in [specVersions/v0.0/whitelist.ts:32](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L32)*
 
 ___
 <a id="whitelist.br"></a>
@@ -150,7 +150,7 @@ ___
 
 **● br**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L10)*
+*Defined in [specVersions/v0.0/whitelist.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L10)*
 
 ___
 <a id="whitelist.code"></a>
@@ -159,7 +159,7 @@ ___
 
 **● code**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L17)*
+*Defined in [specVersions/v0.0/whitelist.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L17)*
 
 ___
 <a id="whitelist.dd"></a>
@@ -168,7 +168,7 @@ ___
 
 **● dd**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:35](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L35)*
+*Defined in [specVersions/v0.0/whitelist.ts:35](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L35)*
 
 ___
 <a id="whitelist.del"></a>
@@ -177,7 +177,7 @@ ___
 
 **● del**: *`string`[]* =  ['cite']
 
-*Defined in [specVersions/v0.0/whitelist.ts:22](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L22)*
+*Defined in [specVersions/v0.0/whitelist.ts:22](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L22)*
 
 ___
 <a id="whitelist.details"></a>
@@ -186,7 +186,7 @@ ___
 
 **● details**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L51)*
+*Defined in [specVersions/v0.0/whitelist.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L51)*
 
 ___
 <a id="whitelist.div"></a>
@@ -195,7 +195,7 @@ ___
 
 **● div**: *`string`[]* =  ['itemscope', 'itemtype']
 
-*Defined in [specVersions/v0.0/whitelist.ts:20](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L20)*
+*Defined in [specVersions/v0.0/whitelist.ts:20](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L20)*
 
 ___
 <a id="whitelist.dl"></a>
@@ -204,7 +204,7 @@ ___
 
 **● dl**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:33](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L33)*
+*Defined in [specVersions/v0.0/whitelist.ts:33](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L33)*
 
 ___
 <a id="whitelist.dt"></a>
@@ -213,7 +213,7 @@ ___
 
 **● dt**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:34](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L34)*
+*Defined in [specVersions/v0.0/whitelist.ts:34](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L34)*
 
 ___
 <a id="whitelist.em"></a>
@@ -222,7 +222,7 @@ ___
 
 **● em**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L14)*
+*Defined in [specVersions/v0.0/whitelist.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L14)*
 
 ___
 <a id="whitelist.h1"></a>
@@ -231,7 +231,7 @@ ___
 
 **● h1**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L2)*
+*Defined in [specVersions/v0.0/whitelist.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L2)*
 
 ___
 <a id="whitelist.h2"></a>
@@ -240,7 +240,7 @@ ___
 
 **● h2**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L3)*
+*Defined in [specVersions/v0.0/whitelist.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L3)*
 
 ___
 <a id="whitelist.h3"></a>
@@ -249,7 +249,7 @@ ___
 
 **● h3**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L4)*
+*Defined in [specVersions/v0.0/whitelist.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L4)*
 
 ___
 <a id="whitelist.h4"></a>
@@ -258,7 +258,7 @@ ___
 
 **● h4**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L5)*
+*Defined in [specVersions/v0.0/whitelist.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L5)*
 
 ___
 <a id="whitelist.h5"></a>
@@ -267,7 +267,7 @@ ___
 
 **● h5**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L6)*
+*Defined in [specVersions/v0.0/whitelist.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L6)*
 
 ___
 <a id="whitelist.h6"></a>
@@ -276,7 +276,7 @@ ___
 
 **● h6**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L7)*
+*Defined in [specVersions/v0.0/whitelist.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L7)*
 
 ___
 <a id="whitelist.h7"></a>
@@ -285,7 +285,7 @@ ___
 
 **● h7**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L8)*
+*Defined in [specVersions/v0.0/whitelist.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L8)*
 
 ___
 <a id="whitelist.h8"></a>
@@ -294,7 +294,7 @@ ___
 
 **● h8**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L9)*
+*Defined in [specVersions/v0.0/whitelist.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L9)*
 
 ___
 <a id="whitelist.hr"></a>
@@ -303,7 +303,7 @@ ___
 
 **● hr**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:40](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L40)*
+*Defined in [specVersions/v0.0/whitelist.ts:40](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L40)*
 
 ___
 <a id="whitelist.i"></a>
@@ -312,7 +312,7 @@ ___
 
 **● i**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:12](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L12)*
+*Defined in [specVersions/v0.0/whitelist.ts:12](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L12)*
 
 ___
 <a id="whitelist.img"></a>
@@ -321,7 +321,7 @@ ___
 
 **● img**: *`string`[]* =  ['src', 'longdesc']
 
-*Defined in [specVersions/v0.0/whitelist.ts:18](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L18)*
+*Defined in [specVersions/v0.0/whitelist.ts:18](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L18)*
 
 ___
 <a id="whitelist.ins"></a>
@@ -330,7 +330,7 @@ ___
 
 **● ins**: *`string`[]* =  ['cite']
 
-*Defined in [specVersions/v0.0/whitelist.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L21)*
+*Defined in [specVersions/v0.0/whitelist.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L21)*
 
 ___
 <a id="whitelist.kbd"></a>
@@ -339,7 +339,7 @@ ___
 
 **● kbd**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:36](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L36)*
+*Defined in [specVersions/v0.0/whitelist.ts:36](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L36)*
 
 ___
 <a id="whitelist.li"></a>
@@ -348,7 +348,7 @@ ___
 
 **● li**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L44)*
+*Defined in [specVersions/v0.0/whitelist.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L44)*
 
 ___
 <a id="whitelist.ol"></a>
@@ -357,7 +357,7 @@ ___
 
 **● ol**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:26](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L26)*
+*Defined in [specVersions/v0.0/whitelist.ts:26](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L26)*
 
 ___
 <a id="whitelist.p"></a>
@@ -366,7 +366,7 @@ ___
 
 **● p**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L25)*
+*Defined in [specVersions/v0.0/whitelist.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L25)*
 
 ___
 <a id="whitelist.pre"></a>
@@ -375,7 +375,7 @@ ___
 
 **● pre**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L16)*
+*Defined in [specVersions/v0.0/whitelist.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L16)*
 
 ___
 <a id="whitelist.q"></a>
@@ -384,7 +384,7 @@ ___
 
 **● q**: *`string`[]* =  ['cite']
 
-*Defined in [specVersions/v0.0/whitelist.ts:37](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L37)*
+*Defined in [specVersions/v0.0/whitelist.ts:37](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L37)*
 
 ___
 <a id="whitelist.rp"></a>
@@ -393,7 +393,7 @@ ___
 
 **● rp**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:43](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L43)*
+*Defined in [specVersions/v0.0/whitelist.ts:43](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L43)*
 
 ___
 <a id="whitelist.rt"></a>
@@ -402,7 +402,7 @@ ___
 
 **● rt**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:42](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L42)*
+*Defined in [specVersions/v0.0/whitelist.ts:42](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L42)*
 
 ___
 <a id="whitelist.ruby"></a>
@@ -411,7 +411,7 @@ ___
 
 **● ruby**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:41](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L41)*
+*Defined in [specVersions/v0.0/whitelist.ts:41](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L41)*
 
 ___
 <a id="whitelist.s"></a>
@@ -420,7 +420,7 @@ ___
 
 **● s**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:48](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L48)*
+*Defined in [specVersions/v0.0/whitelist.ts:48](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L48)*
 
 ___
 <a id="whitelist.samp"></a>
@@ -429,7 +429,7 @@ ___
 
 **● samp**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L38)*
+*Defined in [specVersions/v0.0/whitelist.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L38)*
 
 ___
 <a id="whitelist.strike"></a>
@@ -438,7 +438,7 @@ ___
 
 **● strike**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:49](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L49)*
+*Defined in [specVersions/v0.0/whitelist.ts:49](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L49)*
 
 ___
 <a id="whitelist.strong"></a>
@@ -447,7 +447,7 @@ ___
 
 **● strong**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:13](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L13)*
+*Defined in [specVersions/v0.0/whitelist.ts:13](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L13)*
 
 ___
 <a id="whitelist.sub"></a>
@@ -456,7 +456,7 @@ ___
 
 **● sub**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:24](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L24)*
+*Defined in [specVersions/v0.0/whitelist.ts:24](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L24)*
 
 ___
 <a id="whitelist.summary"></a>
@@ -465,7 +465,7 @@ ___
 
 **● summary**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L50)*
+*Defined in [specVersions/v0.0/whitelist.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L50)*
 
 ___
 <a id="whitelist.sup"></a>
@@ -474,7 +474,7 @@ ___
 
 **● sup**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L23)*
+*Defined in [specVersions/v0.0/whitelist.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L23)*
 
 ___
 <a id="whitelist.table"></a>
@@ -483,7 +483,7 @@ ___
 
 **● table**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:28](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L28)*
+*Defined in [specVersions/v0.0/whitelist.ts:28](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L28)*
 
 ___
 <a id="whitelist.tbody"></a>
@@ -492,7 +492,7 @@ ___
 
 **● tbody**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L30)*
+*Defined in [specVersions/v0.0/whitelist.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L30)*
 
 ___
 <a id="whitelist.td"></a>
@@ -501,7 +501,7 @@ ___
 
 **● td**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:46](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L46)*
+*Defined in [specVersions/v0.0/whitelist.ts:46](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L46)*
 
 ___
 <a id="whitelist.tfoot"></a>
@@ -510,7 +510,7 @@ ___
 
 **● tfoot**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L31)*
+*Defined in [specVersions/v0.0/whitelist.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L31)*
 
 ___
 <a id="whitelist.th"></a>
@@ -519,7 +519,7 @@ ___
 
 **● th**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:47](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L47)*
+*Defined in [specVersions/v0.0/whitelist.ts:47](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L47)*
 
 ___
 <a id="whitelist.thead"></a>
@@ -528,7 +528,7 @@ ___
 
 **● thead**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L29)*
+*Defined in [specVersions/v0.0/whitelist.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L29)*
 
 ___
 <a id="whitelist.tr"></a>
@@ -537,7 +537,7 @@ ___
 
 **● tr**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:45](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L45)*
+*Defined in [specVersions/v0.0/whitelist.ts:45](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L45)*
 
 ___
 <a id="whitelist.tt"></a>
@@ -546,7 +546,7 @@ ___
 
 **● tt**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L19)*
+*Defined in [specVersions/v0.0/whitelist.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L19)*
 
 ___
 <a id="whitelist.ul"></a>
@@ -555,7 +555,7 @@ ___
 
 **● ul**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L27)*
+*Defined in [specVersions/v0.0/whitelist.ts:27](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L27)*
 
 ___
 <a id="whitelist.var"></a>
@@ -564,7 +564,7 @@ ___
 
 **● var**: *`never`[]* =  []
 
-*Defined in [specVersions/v0.0/whitelist.ts:39](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/whitelist.ts#L39)*
+*Defined in [specVersions/v0.0/whitelist.ts:39](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/whitelist.ts#L39)*
 
 ___
 

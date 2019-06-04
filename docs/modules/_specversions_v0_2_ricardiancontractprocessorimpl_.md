@@ -26,11 +26,11 @@
 
 ▸ **ifHasValue**(this: *`any`*, val: *`any`*, options: *`HelperOptions`*): `string`
 
-*Defined in specVersions/v0.2/RicardianContractProcessorImpl.ts:10*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L10)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | this | `any` |
 | val | `any` |
@@ -48,7 +48,7 @@ ___
 
 **implVersion**: *`object`*
 
-*Defined in specVersions/v0.2/RicardianContractProcessorImpl.ts:5*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L5)*
 
 <a id="implversion.major"></a>
 
@@ -56,7 +56,7 @@ ___
 
 **● major**: *`number`* = 0
 
-*Defined in specVersions/v0.2/RicardianContractProcessorImpl.ts:6*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L6)*
 
 ___
 <a id="implversion.minor"></a>
@@ -65,7 +65,7 @@ ___
 
 **● minor**: *`number`* = 2
 
-*Defined in specVersions/v0.2/RicardianContractProcessorImpl.ts:7*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L7)*
 
 ___
 

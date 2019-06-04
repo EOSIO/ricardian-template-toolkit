@@ -40,7 +40,7 @@
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[constructor](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L10)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L10)*
 
 **Returns:** [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
@@ -58,7 +58,7 @@ ___
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[getSpecVersion](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:39](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L39)*
+*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:39](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L39)*
 
 **Returns:** `object`
 
@@ -73,13 +73,13 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[process](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:83](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L83)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:83](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L83)*
 
 Process the RicardianContractConfig and return a RicardianContract.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | config | [RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md) |  A \`RicardianContractConfig\` object |
 
@@ -94,11 +94,11 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[processContract](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#processcontract)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:95](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L95)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:95](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L95)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | config | [RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md) |
 
@@ -113,11 +113,11 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[registerHelper](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerhelper)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:62](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L62)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:62](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L62)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | name | `string` |
 | fn | `HelperDelegate` |
@@ -133,11 +133,11 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[registerWrappedHelper](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:57](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L57)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:57](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L57)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | name | `string` |
 | fn | `HelperDelegate` |

@@ -28,7 +28,7 @@
 
 **● account**: *`string`*
 
-*Defined in [interfaces.ts:35](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L35)*
+*Defined in [interfaces.ts:35](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L35)*
 
 ___
 <a id="authorization"></a>
@@ -37,7 +37,7 @@ ___
 
 **● authorization**: *[TransactionActionAuthorization](_interfaces_.transactionactionauthorization.md)[]*
 
-*Defined in [interfaces.ts:37](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L37)*
+*Defined in [interfaces.ts:37](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L37)*
 
 ___
 <a id="data"></a>
@@ -46,7 +46,7 @@ ___
 
 **● data**: *`any`*
 
-*Defined in [interfaces.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L38)*
+*Defined in [interfaces.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L38)*
 
 ___
 <a id="name"></a>
@@ -55,7 +55,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in [interfaces.ts:36](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L36)*
+*Defined in [interfaces.ts:36](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L36)*
 
 ___
 

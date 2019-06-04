@@ -16,7 +16,7 @@ This library contains a factory that takes an ABI object, a transaction object, 
 1.  Selects an appropriate processor based on the `spec_version` field in the contract metadata
 2.  Validates the Ricardian Contracts and metadata associated with the transaction actions
 3.  Validates all other spec requirements, including image sizes and hashes
-4.  Interpolates all variables with data from the transaction or ricardian_clauses
+4.  Interpolates all variables with data from the transaction or ricardian\_clauses
 5.  On success, returns an object with metadata and Contract Markup Language (CML, a subset of HTML)
 6.  On error or validation failure, returns a descriptive error, along with any data it was able to successfully parse and render
 
@@ -163,12 +163,10 @@ Wallets and related components are complex software that require the highest lev
 * ["specVersions/v0.0/VariableWrapper"](modules/_specversions_v0_0_variablewrapper_.md)
 * ["specVersions/v0.0/WrapVariable"](modules/_specversions_v0_0_wrapvariable_.md)
 * ["specVersions/v0.0/helpers"](modules/_specversions_v0_0_helpers_.md)
-* ["specVersions/v0.0/index"](modules/_specversions_v0_0_index_.md)
 * ["specVersions/v0.0/validators"](modules/_specversions_v0_0_validators_.md)
 * ["specVersions/v0.0/whitelist"](modules/_specversions_v0_0_whitelist_.md)
 * ["specVersions/v0.1/RicardianContractProcessorImpl"](modules/_specversions_v0_1_ricardiancontractprocessorimpl_.md)
 * ["specVersions/v0.1/helpers"](modules/_specversions_v0_1_helpers_.md)
-* ["specVersions/v0.1/index"](modules/_specversions_v0_1_index_.md)
 * ["specVersions/v0.2/RicardianContractProcessorImpl"](modules/_specversions_v0_2_ricardiancontractprocessorimpl_.md)
 * ["specVersions/v0.2/helpers"](modules/_specversions_v0_2_helpers_.md)
 * ["utils/contractUtils"](modules/_utils_contractutils_.md)

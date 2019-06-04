@@ -30,7 +30,7 @@
 
 **● actions**: *[TransactionAction](_interfaces_.transactionaction.md)[]*
 
-*Defined in [interfaces.ts:43](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L43)*
+*Defined in [interfaces.ts:43](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L43)*
 
 ___
 <a id="context_free_actions"></a>
@@ -39,67 +39,61 @@ ___
 
 **● context_free_actions**: *`any`[]*
 
-*Defined in [interfaces.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L50)*
+*Defined in [interfaces.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L50)*
 
 ___
 <a id="delay_sec"></a>
 
 ### `<Optional>` delay_sec
 
-**● delay_sec**: * `undefined` &#124; `number`
-*
+**● delay_sec**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:49](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L49)*
+*Defined in [interfaces.ts:49](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L49)*
 
 ___
 <a id="expiration"></a>
 
 ### `<Optional>` expiration
 
-**● expiration**: * `undefined` &#124; `string`
-*
+**● expiration**: *`undefined` \| `string`*
 
-*Defined in [interfaces.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L44)*
+*Defined in [interfaces.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L44)*
 
 ___
 <a id="max_cpu_usage_ms"></a>
 
 ### `<Optional>` max_cpu_usage_ms
 
-**● max_cpu_usage_ms**: * `undefined` &#124; `number`
-*
+**● max_cpu_usage_ms**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:48](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L48)*
+*Defined in [interfaces.ts:48](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L48)*
 
 ___
 <a id="max_net_usage_words"></a>
 
 ### `<Optional>` max_net_usage_words
 
-**● max_net_usage_words**: * `undefined` &#124; `number`
-*
+**● max_net_usage_words**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:47](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L47)*
+*Defined in [interfaces.ts:47](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L47)*
 
 ___
 <a id="ref_block_num"></a>
 
 ### `<Optional>` ref_block_num
 
-**● ref_block_num**: * `undefined` &#124; `number`
-*
+**● ref_block_num**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:45](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L45)*
+*Defined in [interfaces.ts:45](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L45)*
 
 ___
 <a id="ref_block_prefix"></a>
 
 ### `<Optional>` ref_block_prefix
 
-**● ref_block_prefix**: * `undefined` &#124; `number`
-*
+**● ref_block_prefix**: *`undefined` \| `number`*
 
-*Defined in [interfaces.ts:46](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L46)*
+*Defined in [interfaces.ts:46](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L46)*
 
 ___
 <a id="transaction_extensions"></a>
@@ -108,7 +102,7 @@ ___
 
 **● transaction_extensions**: *`string`[]*
 
-*Defined in [interfaces.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L51)*
+*Defined in [interfaces.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/interfaces.ts#L51)*
 
 ___
 

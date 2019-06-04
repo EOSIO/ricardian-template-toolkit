@@ -45,7 +45,7 @@
 
 ⊕ **new RicardianContractRenderError**(message: * `string` &#124; [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): [RicardianContractRenderError](_ricardiancontractrendererror_.ricardiancontractrendererror.md)
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L16)*
 
 **Parameters:**
 
@@ -88,7 +88,7 @@ ___
 **● reason**: * `string` &#124; `null`
 * =  null
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L16)*
 
 ___
 <a id="stack"></a>
@@ -112,7 +112,7 @@ ___
 **● tag**: * `string` &#124; `null`
 * =  null
 
-*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractRenderError.ts#L15)*
+*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L15)*
 
 ___
 <a id="error"></a>
@@ -133,7 +133,7 @@ ___
 
 ▸ **buildMessage**(messageArgs: * `string` &#124; [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): `string`
 
-*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractRenderError.ts#L7)*
+*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractRenderError.ts#L7)*
 
 **Parameters:**
 

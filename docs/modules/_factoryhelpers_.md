@@ -19,7 +19,7 @@
 
 ▸ **compareProcessors**(a: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)*, b: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)*): `number`
 
-*Defined in [factoryHelpers.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/factoryHelpers.ts#L3)*
+*Defined in [factoryHelpers.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/factoryHelpers.ts#L3)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **findProcessorForVersion**(sortedProcessors: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]*, specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*):  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
 
-*Defined in [factoryHelpers.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/factoryHelpers.ts#L14)*
+*Defined in [factoryHelpers.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/factoryHelpers.ts#L14)*
 
 **Parameters:**
 

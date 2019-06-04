@@ -26,7 +26,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@blockone/tslint-config-blockone": "^1.0.0",
+    "@blockone/tslint-config-blockone": "^4.0.0",
     "@types/handlebars": "^4.0.39",
     "@types/he": "^1.1.0",
     "@types/is-url": "^1.2.28",
@@ -52,6 +52,7 @@
   "dependencies": {
     "front-matter": "^3.0.2",
     "handlebars": "^4.0.12",
+    "handlebars-utils": "^1.0.6",
     "he": "^1.2.0",
     "is-url": "^1.2.4",
     "remarkable": "^1.7.1",

@@ -23,7 +23,7 @@
 
 **● amount**: *`string`*
 
-*Defined in [specVersions/v0.1/helpers.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/helpers.ts#L4)*
+*Defined in [specVersions/v0.1/helpers.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.1/helpers.ts#L4)*
 
 ___
 <a id="symbol"></a>
@@ -32,7 +32,7 @@ ___
 
 **● symbol**: *`string`*
 
-*Defined in [specVersions/v0.1/helpers.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/helpers.ts#L5)*
+*Defined in [specVersions/v0.1/helpers.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/specVersions/v0.1/helpers.ts#L5)*
 
 ___
 

@@ -31,7 +31,7 @@
 
 ⊕ **new RicardianContractFactory**(): [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
-*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L10)*
+*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractFactory.ts#L10)*
 
 **Returns:** [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
@@ -45,7 +45,7 @@ ___
 
 **● processors**: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]* =  []
 
-*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L10)*
+*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractFactory.ts#L10)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **create**(config: *[RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md)*): [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
 
-*Defined in [RicardianContractFactory.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L23)*
+*Defined in [RicardianContractFactory.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractFactory.ts#L23)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **findProcessor**(specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*):  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
 
-*Defined in [RicardianContractFactory.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L19)*
+*Defined in [RicardianContractFactory.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/RicardianContractFactory.ts#L19)*
 
 **Parameters:**
 

@@ -24,7 +24,7 @@
 
 **● name**: *`string`*
 
-*Defined in [interfaces.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L15)*
+*Defined in [interfaces.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L15)*
 
 ___
 <a id="ricardian_contract"></a>
@@ -33,7 +33,7 @@ ___
 
 **● ricardian_contract**: *`string`*
 
-*Defined in [interfaces.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L17)*
+*Defined in [interfaces.ts:17](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L17)*
 
 ___
 <a id="type"></a>
@@ -42,7 +42,7 @@ ___
 
 **● type**: *`string`*
 
-*Defined in [interfaces.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L16)*
+*Defined in [interfaces.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/7ae7085/src/interfaces.ts#L16)*
 
 ___
 

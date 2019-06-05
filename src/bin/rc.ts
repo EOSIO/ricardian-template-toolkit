@@ -64,8 +64,8 @@ function run(): void {
   const abi = loadAbi(argv.abi)
 
   const config = {
-    abi: abi,
-    transaction: transaction,
+    abi,
+    transaction,
     actionIndex: argv['action-index'],
     maxPasses: argv['max-passes'],
     allowUnusedVariables: argv.permissive,

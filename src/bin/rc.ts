@@ -34,7 +34,12 @@ function parseArgs() {
         describe: 'Maximum number of variable interpolation passes to perform',
         default: 3,
         type: 'number',
-      }
+      },
+      'only-metadata': {
+        describe: 'Only print the metadata',
+        default: false,
+        type: 'boolean',
+      },
     })
     .demandOption(['transaction', 'abi'])
     .version()
@@ -59,8 +64,8 @@ function run(): void {
   const abi = loadAbi(argv.abi)
 
   const config = {
-    abi: abi.abi,
-    transaction: transaction.transaction,
+    abi,
+    transaction,
     actionIndex: argv['action-index'],
     maxPasses: argv['max-passes'],
     allowUnusedVariables: argv.permissive,
@@ -69,7 +74,11 @@ function run(): void {
   const rcf = new RicardianContractFactory()
   const rc = rcf.create(config)
 
-  console.info(rc.getHtml())
+  if (argv['only-metadata']) {
+    console.info(JSON.stringify(rc.getMetadata(), null, 4))
+  } else {
+    console.info(rc.getHtml())
+  }
 }
 
 module.exports.run = run

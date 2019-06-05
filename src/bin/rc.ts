@@ -55,9 +55,8 @@ function loadAbi(abiPath: string): any {
 
 function run(): void {
   const argv = parseArgs()
-  // Since transaction and api are required, they won't be undefined / null
-  const transaction = loadTransaction(argv.transaction!)
-  const abi = loadAbi(argv.abi!)
+  const transaction = loadTransaction(argv.transaction)
+  const abi = loadAbi(argv.abi)
 
   const config = {
     abi: abi.abi,

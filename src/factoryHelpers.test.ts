@@ -84,7 +84,9 @@ describe('findProcessorForVersion', () => {
     const processor = findProcessorForVersion(processors, specVersion)
 
     expect(processor).not.toBeNull()
-    expect(processor!.getSpecVersion()).toEqual(specVersion)
+    if (processor) {
+      expect(processor.getSpecVersion()).toEqual(specVersion)
+    }
   })
 
   it('finds a processor for equal major and lesser minor', () => {
@@ -93,7 +95,9 @@ describe('findProcessorForVersion', () => {
     const processor = findProcessorForVersion(processors, specVersion)
 
     expect(processor).not.toBeNull()
-    expect(processor!.getSpecVersion()).toEqual({ major: 3, minor: 4})
+    if (processor) {
+      expect(processor.getSpecVersion()).toEqual({ major: 3, minor: 4})
+    }
   })
 
   it('finds nothing for equal major and greater minor', () => {

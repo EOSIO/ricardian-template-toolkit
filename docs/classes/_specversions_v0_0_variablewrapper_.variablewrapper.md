@@ -38,11 +38,11 @@
 
 ⊕ **new VariableWrapper**(wrappedHelpers: *`string`[]*, wrapVariable: *[WrapVariable](../modules/_specversions_v0_0_wrapvariable_.md#wrapvariable)*): [VariableWrapper](_specversions_v0_0_variablewrapper_.variablewrapper.md)
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L31)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L31)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | wrappedHelpers | `string`[] |
 | wrapVariable | [WrapVariable](../modules/_specversions_v0_0_wrapvariable_.md#wrapvariable) |
@@ -59,7 +59,7 @@ ___
 
 **● variableMatch**: *`RegExp`* =  VariableWrapper.createVariableMatcher()
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:28](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L28)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:28](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L28)*
 
 ___
 <a id="wrapvariable"></a>
@@ -68,7 +68,7 @@ ___
 
 **● wrapVariable**: *[WrapVariable](../modules/_specversions_v0_0_wrapvariable_.md#wrapvariable)*
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L31)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L31)*
 
 ___
 <a id="wrappedhelpermatch"></a>
@@ -77,7 +77,7 @@ ___
 
 **● wrappedHelperMatch**: *`RegExp`*
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L29)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:29](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L29)*
 
 ___
 <a id="end"></a>
@@ -86,7 +86,7 @@ ___
 
 **● end**: *`string`* =  /(}}}?)([^}]|$)/.source
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L6)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:6](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L6)*
 
 ___
 <a id="space"></a>
@@ -95,7 +95,7 @@ ___
 
 **● space**: *`string`* =  /(?:[\s]*)/.source
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L7)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L7)*
 
 ___
 <a id="start"></a>
@@ -104,7 +104,7 @@ ___
 
 **● start**: *`string`* =  /(^|[^{])({{{?)/.source
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L5)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L5)*
 
 ___
 
@@ -116,11 +116,11 @@ ___
 
 ▸ **processVariable**(...p: *`any`[]*): `string`
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L44)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:44](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L44)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | `Rest` p | `any`[] |
 
@@ -133,11 +133,11 @@ ___
 
 ▸ **wrap**(template: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L38)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L38)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | template | `string` |
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **createVariableMatcher**(): `RegExp`
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L9)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L9)*
 
 **Returns:** `RegExp`
 
@@ -161,11 +161,11 @@ ___
 
 ▸ **createWrappedHelperMatcher**(wrappedHelpers: *`string`[]*): `RegExp`
 
-*Defined in [specVersions/v0.0/VariableWrapper.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/VariableWrapper.ts#L19)*
+*Defined in [specVersions/v0.0/VariableWrapper.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/VariableWrapper.ts#L19)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | wrappedHelpers | `string`[] |
 

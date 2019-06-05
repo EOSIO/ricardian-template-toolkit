@@ -18,7 +18,7 @@
 
 ▸ **ifHasValue**(this: *`any`*, val: *`any`*, options: *`HelperOptions`*): `string`
 
-*Defined in [specVersions/v0.2/helpers.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/helpers.ts#L1)*
+*Defined in [specVersions/v0.2/helpers.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.2/helpers.ts#L1)*
 
 **Parameters:**
 

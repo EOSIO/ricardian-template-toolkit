@@ -18,6 +18,11 @@ import { validateIcon, validateSummary, validateTitle } from './validators'
 import * as utils from '../../utils/contractUtils'
 import { getContractSpecVersion } from '../../utils/contractUtils'
 
+const implVersion = {
+  major: 0,
+  minor: 0,
+}
+
 /**
  * Processes a Ricardian contract, interpolating transaction variables and clauses, and
  * extracting metadata and html.
@@ -64,10 +69,7 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
   }
 
   public getSpecVersion() {
-    return {
-      major: 0,
-      minor: 0,
-    }
+    return implVersion
   }
 
   /**
@@ -75,13 +77,8 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
    *
    * @param config A `RicardianContractConfig` object
    */
-  /**
-   * Process the RicardianContractConfig and return a RicardianContract.
-   *
-   * @param config A `RicardianContractConfig` object
-   */
   public process(config: RicardianContractConfig): RicardianContract {
-    const  version = getContractSpecVersion(config)
+    const version = getContractSpecVersion(config)
     const specVersion = this.getSpecVersion()
 
     if (version.major === specVersion.major && version.minor <= specVersion.minor) {

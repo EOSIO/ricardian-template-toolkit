@@ -38,7 +38,7 @@
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[constructor](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)*
 
-*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L19)*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L11)*
 
 **Returns:** [RicardianContractProcessorImpl](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
@@ -56,7 +56,7 @@ ___
 
 *Overrides [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[getSpecVersion](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)*
 
-*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:31](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L31)*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L23)*
 
 **Returns:** `object`
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[process](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:83](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L83)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:80](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L80)*
 
 Process the RicardianContractConfig and return a RicardianContract.
 
@@ -92,7 +92,7 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[processContract](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#processcontract)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:95](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L95)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:92](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L92)*
 
 **Parameters:**
 
@@ -111,7 +111,7 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[registerHelper](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerhelper)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:62](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L62)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:67](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L67)*
 
 **Parameters:**
 
@@ -131,7 +131,7 @@ ___
 
 *Inherited from [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[registerWrappedHelper](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:57](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L57)*
+*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:62](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L62)*
 
 **Parameters:**
 

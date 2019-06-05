@@ -27,7 +27,7 @@
 
 **● $action**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContext.ts#L3)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContext.ts#L3)*
 
 ___
 <a id="_clauses"></a>
@@ -36,7 +36,7 @@ ___
 
 **● $clauses**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContext.ts#L4)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:4](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContext.ts#L4)*
 
 ___
 <a id="_transaction"></a>
@@ -45,7 +45,7 @@ ___
 
 **● $transaction**: *`any`*
 
-*Defined in [specVersions/v0.0/RicardianContext.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/51ffd5b/src/specVersions/v0.0/RicardianContext.ts#L2)*
+*Defined in [specVersions/v0.0/RicardianContext.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/RicardianContext.ts#L2)*
 
 ___
 

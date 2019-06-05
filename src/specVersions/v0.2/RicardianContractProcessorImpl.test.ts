@@ -9,12 +9,10 @@ const abi = JSON.parse(eosioTokenAbi)
 // tslint:disable:max-line-length
 describe('RicardianContractProcessorImp - v0.2', () => {
   const rcp = new RicardianContractProcessorImpl()
-  // const contractMetadata = '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n'
 
   it('dumps variable as JSON', () => {
-    // tslint:disable:max-line-length
     const expectedHtml =
-      `<h2>We got a action over here!</h2>
+`<h2>We got a action over here!</h2>
 <pre><code>{
   "account": "eosio.token",
   "name": "transfer",
@@ -38,14 +36,12 @@ describe('RicardianContractProcessorImp - v0.2', () => {
 }
 </code></pre>
 `
-    // tslint:enable:max-line-length
     const newAbi: Abi = {
       ...abi,
       actions: [
         {
           name: 'transfer',
           type: 'transfer',
-          // tslint:disable-next-line:max-line-length
           ricardian_contract: '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n## We got a action over here!\n{{to_json $action}}\n',
         },
       ],
@@ -60,19 +56,13 @@ describe('RicardianContractProcessorImp - v0.2', () => {
   })
 
   it('renders block if value defined', () => {
-    // tslint:disable:max-line-length
-    const expectedHtml =
-`<h2>We got a action over here!</h2>
-Do we have a memo? <div class="variable data">Testing.</div><br />
-`
-    // tslint:enable:max-line-length
+    const expectedHtml = `<h2>We got a action over here!</h2>\nDo we have a memo? <div class="variable data">Testing.</div><br />\n`
     const newAbi: Abi = {
       ...abi,
       actions: [
         {
           name: 'transfer',
           type: 'transfer',
-          // tslint:disable-next-line:max-line-length
           ricardian_contract: '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n## We got a action over here!\nDo we have a memo? {{#if_has_value memo}}{{memo}}{{else}}{{No memo given}}{{/if_has_value}}\n',
         },
       ],

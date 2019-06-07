@@ -26,7 +26,7 @@
 
 **● actions**: *[AbiAction](_interfaces_.abiaction.md)[]*
 
-*Defined in [interfaces.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L10)*
+*Defined in [interfaces.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/interfaces.ts#L10)*
 
 ___
 <a id="ricardian_clauses"></a>
@@ -35,7 +35,7 @@ ___
 
 **● ricardian_clauses**: *[RicardianClause](_interfaces_.ricardianclause.md)[]*
 
-*Defined in [interfaces.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L11)*
+*Defined in [interfaces.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/interfaces.ts#L11)*
 
 ___
 <a id="structs"></a>
@@ -44,7 +44,7 @@ ___
 
 **● structs**: *`Array`<`object`>*
 
-*Defined in [interfaces.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L9)*
+*Defined in [interfaces.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/interfaces.ts#L9)*
 
 ___
 <a id="types"></a>
@@ -53,7 +53,7 @@ ___
 
 **● types**: *`Array`<`object`>*
 
-*Defined in [interfaces.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L8)*
+*Defined in [interfaces.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/interfaces.ts#L8)*
 
 ___
 <a id="version"></a>
@@ -62,7 +62,7 @@ ___
 
 **● version**: *`string`*
 
-*Defined in [interfaces.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/interfaces.ts#L7)*
+*Defined in [interfaces.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/interfaces.ts#L7)*
 
 ___
 

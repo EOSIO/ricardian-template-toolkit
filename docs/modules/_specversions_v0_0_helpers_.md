@@ -25,11 +25,11 @@
 
 ▸ **extractSymbolCode**(text: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:55](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L55)*
+*Defined in [specVersions/v0.0/helpers.ts:55](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L55)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | text | `string` |
 
@@ -42,7 +42,7 @@ ___
 
 ▸ **getWhiteList**(): `object`
 
-*Defined in [specVersions/v0.0/helpers.ts:125](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L125)*
+*Defined in [specVersions/v0.0/helpers.ts:125](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L125)*
 
 **Returns:** `object`
 
@@ -53,11 +53,11 @@ ___
 
 ▸ **hasVariable**(text: *`string`*): `boolean`
 
-*Defined in [specVersions/v0.0/helpers.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L25)*
+*Defined in [specVersions/v0.0/helpers.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L25)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | text | `string` |
 
@@ -70,11 +70,11 @@ ___
 
 ▸ **indexTransaction**(entry: *`any`*): `any`
 
-*Defined in [specVersions/v0.0/helpers.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L7)*
+*Defined in [specVersions/v0.0/helpers.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L7)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | entry | `any` |
 
@@ -87,11 +87,11 @@ ___
 
 ▸ **processTag**(tagStack: *`string`[]*, tag: *`string`*, options: *`any`*): `void`
 
-*Defined in [specVersions/v0.0/helpers.ts:98](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L98)*
+*Defined in [specVersions/v0.0/helpers.ts:98](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L98)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | tagStack | `string`[] |
 | tag | `string` |
@@ -106,11 +106,11 @@ ___
 
 ▸ **sanitizeHtml**(html: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L65)*
+*Defined in [specVersions/v0.0/helpers.ts:65](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L65)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | html | `string` |
 
@@ -123,11 +123,11 @@ ___
 
 ▸ **tagMetadataVariables**(wrappedHelpers: *`string`[]*, metadata: *`object`*): `object`
 
-*Defined in [specVersions/v0.0/helpers.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L38)*
+*Defined in [specVersions/v0.0/helpers.ts:38](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L38)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | wrappedHelpers | `string`[] |
 | metadata | `object` |
@@ -141,11 +141,11 @@ ___
 
 ▸ **tagTemplateVariables**(wrappedHelpers: *`string`[]*, template: *`string`*): `string`
 
-*Defined in [specVersions/v0.0/helpers.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.0/helpers.ts#L30)*
+*Defined in [specVersions/v0.0/helpers.ts:30](https://github.com/EOSIO/ricardian-template-toolkit/blob/40d686c/src/specVersions/v0.0/helpers.ts#L30)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | wrappedHelpers | `string`[] |
 | template | `string` |

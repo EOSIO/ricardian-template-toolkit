@@ -46,7 +46,7 @@ And I swear</div><br />
 `
 // tslint:enable:max-line-length
 
-describe('RicardianContract', (): void => {
+describe('RicardianContractProcessorImp - v0.0', (): void => {
   const rcp = new RicardianContractProcessorImpl()
 
   describe('provided a valid transaction and ABI', (): void => {
@@ -173,6 +173,7 @@ describe('RicardianContract', (): void => {
       })
       expect(rc.getHtml()).toEqual(expectedHtml)
     })
+
   })
 
   describe('when variables appear in metadata', (): void => {

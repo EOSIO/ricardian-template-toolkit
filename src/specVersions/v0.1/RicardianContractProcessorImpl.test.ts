@@ -7,7 +7,7 @@ const transaction = JSON.parse(transferTransaction)
 const abi = JSON.parse(eosioTokenAbi)
 
 // tslint:disable:max-line-length
-describe('RicardianContractProcessorImp - v1.1', () => {
+describe('RicardianContractProcessorImp - v0.1', () => {
   const rcp = new RicardianContractProcessorImpl()
   const contractMetadata = '---\ntitle: Token Transfer\nsummary: Transfer tokens between accounts.\nicon: https://a.com/token-transfer.png#00506E08A55BCF269FE67F202BBC08CFF55F9E3C7CD4459ECB90205BF3C3B562\n---\n\n'
 

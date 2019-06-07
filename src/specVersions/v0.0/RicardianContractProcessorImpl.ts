@@ -16,6 +16,12 @@ import { RicardianContext } from './RicardianContext'
 import { validateIcon, validateSummary, validateTitle } from './validators'
 
 import * as utils from '../../utils/contractUtils'
+import { getContractSpecVersion } from '../../utils/contractUtils'
+
+const implVersion = {
+  major: 0,
+  minor: 0,
+}
 
 /**
  * Processes a Ricardian contract, interpolating transaction variables and clauses, and
@@ -39,16 +45,16 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
         + '</div>'
     })
 
-    this.registerWrappedHelper('symbol_to_symbol_code', (symbol: string): string => {
-      return extractSymbolCode(symbol)
+    this.registerWrappedHelper('symbol_to_symbol_code', (symbol: string) => {
+      return new Handlebars.SafeString(extractSymbolCode(symbol))
     })
 
-    this.registerWrappedHelper('asset_to_symbol_code', (asset: string): string => {
-      return extractSymbolCode(asset)
+    this.registerWrappedHelper('asset_to_symbol_code', (asset: string) => {
+      return new Handlebars.SafeString(extractSymbolCode(asset))
     })
 
-    Handlebars.registerHelper('nowrap', (text: string): string => {
-      return text
+    Handlebars.registerHelper('nowrap', (text: string) => {
+      return new Handlebars.SafeString(text)
     })
   }
 
@@ -58,11 +64,12 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
     this.wrappedHelpers.push(name)
   }
 
+  protected registerHelper(name: string, fn: Handlebars.HelperDelegate) {
+    Handlebars.registerHelper(name, fn)
+  }
+
   public getSpecVersion() {
-    return {
-      major: 0,
-      minor: 0,
-    }
+    return implVersion
   }
 
   /**
@@ -71,6 +78,18 @@ export class RicardianContractProcessorImpl implements RicardianContractProcesso
    * @param config A `RicardianContractConfig` object
    */
   public process(config: RicardianContractConfig): RicardianContract {
+    const version = getContractSpecVersion(config)
+    const specVersion = this.getSpecVersion()
+
+    if (version.major === specVersion.major && version.minor <= specVersion.minor) {
+      return this.processContract(config)
+    } else {
+      throw new RicardianContractRenderError(`Unexpected version encountered. ` +
+        `Found ${version}`)
+    }
+  }
+
+  protected processContract(config: RicardianContractConfig): RicardianContract {
     this.allowUnusedVariables = !!config.allowUnusedVariables
     this.disableMetadataValidation = !!config.allowUnusedVariables
 

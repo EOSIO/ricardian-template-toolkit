@@ -49,7 +49,7 @@ The Ricardian Specification and an example of a compliant Ricardian contract can
 Usage is very straightforward:
 
 ```javascript
-import RicardianContractFactory from 'ricardian-template-toolkit'
+import { RicardianContractFactory} from 'ricardian-template-toolkit'
 
 ...
 

@@ -57,7 +57,7 @@ Usage
 Usage is very straightforward:
 
 ```javascript
-import RicardianContractFactory from 'ricardian-template-toolkit'
+import { RicardianContractFactory} from 'ricardian-template-toolkit'
 
 ...
 

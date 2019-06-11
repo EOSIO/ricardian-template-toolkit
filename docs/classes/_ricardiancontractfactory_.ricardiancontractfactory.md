@@ -31,7 +31,7 @@
 
 ⊕ **new RicardianContractFactory**(): [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
-*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L10)*
+*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L11)*
 
 **Returns:** [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
@@ -45,7 +45,7 @@ ___
 
 **● processors**: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]* =  []
 
-*Defined in [RicardianContractFactory.ts:10](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L10)*
+*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L11)*
 
 ___
 
@@ -57,11 +57,11 @@ ___
 
 ▸ **create**(config: *[RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md)*): [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
 
-*Defined in [RicardianContractFactory.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L23)*
+*Defined in [RicardianContractFactory.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L25)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | config | [RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md) |
 
@@ -72,17 +72,17 @@ ___
 
 ### `<Private>` findProcessor
 
-▸ **findProcessor**(specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*):  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
+▸ **findProcessor**(specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*): [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) \| `null`
 
-*Defined in [RicardianContractFactory.ts:19](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/RicardianContractFactory.ts#L19)*
+*Defined in [RicardianContractFactory.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L21)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | specVersion | [SpecVersion](../interfaces/_interfaces_.specversion.md) |
 
-**Returns:**  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
+**Returns:** [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) \| `null`
 
 ___
 

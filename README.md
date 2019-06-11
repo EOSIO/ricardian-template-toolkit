@@ -27,6 +27,24 @@ Foundational Inspiration for Metadata:
 
 `yarn add ricardian-template-toolkit`
 
+## Command Line Tool
+
+The toolkit includes a simple command line wrapper around the library for local testing of HTML generation. If you install the package globally, the `rc` command will be available on the command line. If running locally, use (within the project root) `./bin/rc`. Given an ABI, transaction data (fully deserialized), and optionally the transaction index (default 0) the `rc` command will output the generated HTML fragment.
+
+Example:
+```
+rc -a myabi.json -t mytxn.json -i 1
+```
+
+The metadata is also available with the `--only-metadata` option.
+
+Example:
+```
+rc -a myabi.json -t mytxn.json -i 1 --only-metadata
+```
+
+Help is available with `rc --help`.
+
 ## Running Locally
 
 ```
@@ -49,7 +67,7 @@ The Ricardian Specification and an example of a compliant Ricardian contract can
 Usage is very straightforward:
 
 ```javascript
-import RicardianContractFactory from 'ricardian-template-toolkit'
+import { RicardianContractFactory} from 'ricardian-template-toolkit'
 
 ...
 
@@ -129,6 +147,6 @@ Rendered Styled HTML
 
 ## Important
 
-See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the EOSIO community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties or merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation.  Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.
+See LICENSE for copyright and license terms.  Block.one makes its contribution on a voluntary basis as a member of the EOSIO community and is not responsible for ensuring the overall performance of the software or any related applications.  We make no representation, warranty, guarantee or undertaking in respect of the software or any related documentation, whether expressed or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall we be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or documentation or the use or other dealings in the software or documentation. Any test results or performance figures are indicative and will not reflect performance under all conditions.  Any reference to any third party or third-party product, service or other resource is not an endorsement or recommendation by Block.one.  We are not responsible, and disclaim any and all responsibility and liability, for your use of or reliance on any of these resources. Third-party resources may be updated, changed or terminated at any time, so the information here may be out of date or inaccurate.  Any person using or offering this software in connection with providing software, goods or services to third parties shall advise such third parties of these license terms, disclaimers and exclusions of liability.  Block.one, EOSIO, EOSIO Labs, EOS, the heptahedron and associated logos are trademarks of Block.one.
 
 Wallets and related components are complex software that require the highest levels of security.  If incorrectly built or used, they may compromise users’ private keys and digital assets. Wallet applications and related components should undergo thorough security evaluations before being used.  Only experienced developers should work with this software.

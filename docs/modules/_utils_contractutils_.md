@@ -21,11 +21,11 @@
 
 ▸ **getContractSpecVersion**(config: *[RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md)*): [SpecVersion](../interfaces/_interfaces_.specversion.md)
 
-*Defined in [utils/contractUtils.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/utils/contractUtils.ts#L50)*
+*Defined in [utils/contractUtils.ts:50](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/utils/contractUtils.ts#L50)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | config | [RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md) |
 
@@ -38,13 +38,13 @@ ___
 
 ▸ **getContractTextFromAbi**(abi: *[Abi](../interfaces/_interfaces_.abi.md)*, action: *[TransactionAction](../interfaces/_interfaces_.transactionaction.md)*): `string`
 
-*Defined in [utils/contractUtils.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/utils/contractUtils.ts#L25)*
+*Defined in [utils/contractUtils.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/utils/contractUtils.ts#L25)*
 
 Finds the abi for a specific action and returns the raw ricardian contract.
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | abi | [Abi](../interfaces/_interfaces_.abi.md) |
 | action | [TransactionAction](../interfaces/_interfaces_.transactionaction.md) |
@@ -59,13 +59,13 @@ ___
 
 ▸ **getMetadataAndContent**(contractText: *`string`*): `object`
 
-*Defined in [utils/contractUtils.ts:40](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/utils/contractUtils.ts#L40)*
+*Defined in [utils/contractUtils.ts:40](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/utils/contractUtils.ts#L40)*
 
 Extracts the ContractMetadata and contract body contents from the raw contract text
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | contractText | `string` |  String containing the raw contract text |
 
@@ -79,13 +79,13 @@ ___
 
 ▸ **getTransactionAction**(transaction: *[Transaction](../interfaces/_interfaces_.transaction.md)*, actionIndex: *`number`*): [TransactionAction](../interfaces/_interfaces_.transactionaction.md)
 
-*Defined in [utils/contractUtils.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/utils/contractUtils.ts#L15)*
+*Defined in [utils/contractUtils.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/utils/contractUtils.ts#L15)*
 
 Retrieves a specifc action based off its index.
 
 **Parameters:**
 
-| Param | Type | Description |
+| Name | Type | Description |
 | ------ | ------ | ------ |
 | transaction | [Transaction](../interfaces/_interfaces_.transaction.md) |
 | actionIndex | `number` |  The index of an action to return from the transaction.actions array |

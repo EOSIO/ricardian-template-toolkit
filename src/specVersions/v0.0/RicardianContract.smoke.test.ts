@@ -17,7 +17,7 @@ describe('RicardianContract', (): void => {
       expect(() => rcp.process({
         abi,
         transaction,
-        actionIndex: 0,
+        actionIndex: 1,
         allowUnusedVariables: true,
       })).not.toThrow(RicardianContractRenderError)
     })
@@ -26,7 +26,7 @@ describe('RicardianContract', (): void => {
       expect(() => rcp.process({
         abi,
         transaction,
-        actionIndex: 1,
+        actionIndex: 0,
       })).not.toThrow(RicardianContractRenderError)
     })
   })

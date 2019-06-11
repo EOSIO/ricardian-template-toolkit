@@ -1,14 +1,12 @@
-[ricardian-template-toolkit](../README.md) > ["specVersions/v0.1/RicardianContractProcessorImpl"](../modules/_specversions_v0_1_ricardiancontractprocessorimpl_.md) > [RicardianContractProcessorImpl](../classes/_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
+[ricardian-template-toolkit](../README.md) > ["specVersions/v0.2/RicardianContractProcessorImpl"](../modules/_specversions_v0_2_ricardiancontractprocessorimpl_.md) > [RicardianContractProcessorImpl](../classes/_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
 # Class: RicardianContractProcessorImpl
 
 ## Hierarchy
 
- [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
+↳  [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
 **↳ RicardianContractProcessorImpl**
-
-↳  [RicardianContractProcessorImpl](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
 ## Implements
 
@@ -18,15 +16,15 @@
 
 ### Constructors
 
-* [constructor](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)
+* [constructor](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)
 
 ### Methods
 
-* [getSpecVersion](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)
-* [process](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)
-* [processContract](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#processcontract)
-* [registerHelper](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerhelper)
-* [registerWrappedHelper](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)
+* [getSpecVersion](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)
+* [process](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#process)
+* [processContract](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#processcontract)
+* [registerHelper](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerhelper)
+* [registerWrappedHelper](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#registerwrappedhelper)
 
 ---
 
@@ -36,13 +34,13 @@
 
 ###  constructor
 
-⊕ **new RicardianContractProcessorImpl**(): [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
+⊕ **new RicardianContractProcessorImpl**(): [RicardianContractProcessorImpl](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
-*Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[constructor](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)*
+*Overrides [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[constructor](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#constructor)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:9](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L9)*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L11)*
 
-**Returns:** [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
+**Returns:** [RicardianContractProcessorImpl](_specversions_v0_2_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md)
 
 ___
 
@@ -56,9 +54,9 @@ ___
 
 *Implementation of [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md).[getSpecVersion](../interfaces/_interfaces_.ricardiancontractprocessor.md#getspecversion)*
 
-*Overrides [RicardianContractProcessorImpl](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[getSpecVersion](_specversions_v0_0_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)*
+*Overrides [RicardianContractProcessorImpl](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md).[getSpecVersion](_specversions_v0_1_ricardiancontractprocessorimpl_.ricardiancontractprocessorimpl.md#getspecversion)*
 
-*Defined in [specVersions/v0.1/RicardianContractProcessorImpl.ts:18](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/RicardianContractProcessorImpl.ts#L18)*
+*Defined in [specVersions/v0.2/RicardianContractProcessorImpl.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.2/RicardianContractProcessorImpl.ts#L23)*
 
 **Returns:** `object`
 

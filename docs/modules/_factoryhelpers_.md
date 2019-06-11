@@ -19,11 +19,11 @@
 
 ▸ **compareProcessors**(a: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)*, b: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)*): `number`
 
-*Defined in [factoryHelpers.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/factoryHelpers.ts#L3)*
+*Defined in [factoryHelpers.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/factoryHelpers.ts#L3)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | a | [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) |
 | b | [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) |
@@ -35,18 +35,18 @@ ___
 
 ###  findProcessorForVersion
 
-▸ **findProcessorForVersion**(sortedProcessors: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]*, specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*):  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
+▸ **findProcessorForVersion**(sortedProcessors: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]*, specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*): [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) \| `null`
 
-*Defined in [factoryHelpers.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/factoryHelpers.ts#L14)*
+*Defined in [factoryHelpers.ts:14](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/factoryHelpers.ts#L14)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | sortedProcessors | [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[] |
 | specVersion | [SpecVersion](../interfaces/_interfaces_.specversion.md) |
 
-**Returns:**  [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) &#124; `null`
+**Returns:** [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) \| `null`
 
 ___
 

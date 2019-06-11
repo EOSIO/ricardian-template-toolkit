@@ -22,11 +22,11 @@
 
 ▸ **parseAsset**(asset: *`string`*): [Asset](../interfaces/_specversions_v0_1_helpers_.asset.md)
 
-*Defined in [specVersions/v0.1/helpers.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/76dafef/src/specVersions/v0.1/helpers.ts#L8)*
+*Defined in [specVersions/v0.1/helpers.ts:8](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.1/helpers.ts#L8)*
 
 **Parameters:**
 
-| Param | Type |
+| Name | Type |
 | ------ | ------ |
 | asset | `string` |
 

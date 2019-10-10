@@ -45,7 +45,7 @@
 
 ⊕ **new RicardianContractRenderError**(message: *`string` \| [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): [RicardianContractRenderError](_ricardiancontractrendererror_.ricardiancontractrendererror.md)
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractRenderError.ts#L16)*
 
 **Parameters:**
 
@@ -67,7 +67,7 @@ ___
 
 *Inherited from Error.message*
 
-*Defined in /Users/eddie.sheffield/projects/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:964*
+*Defined in /Users/mike.manfredi/b1_repos/ual/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:964*
 
 ___
 <a id="name"></a>
@@ -78,7 +78,7 @@ ___
 
 *Inherited from Error.name*
 
-*Defined in /Users/eddie.sheffield/projects/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:963*
+*Defined in /Users/mike.manfredi/b1_repos/ual/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:963*
 
 ___
 <a id="reason"></a>
@@ -87,7 +87,7 @@ ___
 
 **● reason**: *`string` \| `null`* =  null
 
-*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L16)*
+*Defined in [RicardianContractRenderError.ts:16](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractRenderError.ts#L16)*
 
 ___
 <a id="stack"></a>
@@ -100,7 +100,7 @@ ___
 
 *Overrides Error.stack*
 
-*Defined in /Users/eddie.sheffield/projects/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:965*
+*Defined in /Users/mike.manfredi/b1_repos/ual/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:965*
 
 ___
 <a id="tag"></a>
@@ -109,7 +109,7 @@ ___
 
 **● tag**: *`string` \| `null`* =  null
 
-*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L15)*
+*Defined in [RicardianContractRenderError.ts:15](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractRenderError.ts#L15)*
 
 ___
 <a id="error"></a>
@@ -118,7 +118,7 @@ ___
 
 **● Error**: *`ErrorConstructor`*
 
-*Defined in /Users/eddie.sheffield/projects/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:974*
+*Defined in /Users/mike.manfredi/b1_repos/ual/ricardian-template-toolkit/node_modules/typedoc/node_modules/typescript/lib/lib.es5.d.ts:974*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **buildMessage**(messageArgs: *`string` \| [HtmlValidationErrorArgs](../interfaces/_ricardiancontractrendererror_.htmlvalidationerrorargs.md)*): `string`
 
-*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractRenderError.ts#L7)*
+*Defined in [RicardianContractRenderError.ts:7](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractRenderError.ts#L7)*
 
 **Parameters:**
 

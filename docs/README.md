@@ -31,6 +31,27 @@ Installation
 
 `yarn add ricardian-template-toolkit`
 
+Command Line Tool
+-----------------
+
+The toolkit includes a simple command line wrapper around the library for local testing of HTML generation. If you install the package globally, the `rc` command will be available on the command line. If running locally, use (within the project root) `./bin/rc`. Given an ABI, transaction data (fully deserialized), and optionally the transaction index (default 0) the `rc` command will output the generated HTML fragment.
+
+Example:
+
+```
+rc -a myabi.json -t mytxn.json -i 1
+```
+
+The metadata is also available with the `--only-metadata` option.
+
+Example:
+
+```
+rc -a myabi.json -t mytxn.json -i 1 --only-metadata
+```
+
+Help is available with `rc --help`.
+
 Running Locally
 ---------------
 

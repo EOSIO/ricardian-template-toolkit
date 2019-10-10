@@ -31,7 +31,7 @@
 
 ⊕ **new RicardianContractFactory**(): [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
-*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractFactory.ts#L11)*
+*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L11)*
 
 **Returns:** [RicardianContractFactory](_ricardiancontractfactory_.ricardiancontractfactory.md)
 
@@ -45,7 +45,7 @@ ___
 
 **● processors**: *[RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md)[]* =  []
 
-*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractFactory.ts#L11)*
+*Defined in [RicardianContractFactory.ts:11](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L11)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **create**(config: *[RicardianContractConfig](../interfaces/_interfaces_.ricardiancontractconfig.md)*): [RicardianContract](../interfaces/_interfaces_.ricardiancontract.md)
 
-*Defined in [RicardianContractFactory.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractFactory.ts#L25)*
+*Defined in [RicardianContractFactory.ts:25](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L25)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ ___
 
 ▸ **findProcessor**(specVersion: *[SpecVersion](../interfaces/_interfaces_.specversion.md)*): [RicardianContractProcessor](../interfaces/_interfaces_.ricardiancontractprocessor.md) \| `null`
 
-*Defined in [RicardianContractFactory.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/RicardianContractFactory.ts#L21)*
+*Defined in [RicardianContractFactory.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/RicardianContractFactory.ts#L21)*
 
 **Parameters:**
 

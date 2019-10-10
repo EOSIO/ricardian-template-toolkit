@@ -21,7 +21,7 @@
 
 ▸ **loadAbi**(abiPath: *`string`*): `any`
 
-*Defined in [bin/rc.ts:56](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/bin/rc.ts#L56)*
+*Defined in [bin/rc.ts:56](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/bin/rc.ts#L56)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ ___
 
 ▸ **loadTransaction**(transactionPath: *`string`*): `any`
 
-*Defined in [bin/rc.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/bin/rc.ts#L51)*
+*Defined in [bin/rc.ts:51](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/bin/rc.ts#L51)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **parseArgs**(): `object`
 
-*Defined in [bin/rc.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/bin/rc.ts#L5)*
+*Defined in [bin/rc.ts:5](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/bin/rc.ts#L5)*
 
 **Returns:** `object`
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **run**(): `void`
 
-*Defined in [bin/rc.ts:61](https://github.com/EOSIO/ricardian-template-toolkit/blob/1bed127/src/bin/rc.ts#L61)*
+*Defined in [bin/rc.ts:61](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/bin/rc.ts#L61)*
 
 **Returns:** `void`
 

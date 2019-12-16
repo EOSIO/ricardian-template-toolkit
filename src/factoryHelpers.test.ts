@@ -2,10 +2,11 @@ import { compareProcessors, findProcessorForVersion } from './factoryHelpers'
 import { RicardianContractProcessor } from './interfaces'
 
 function createMockProcessor(major: number, minor: number) {
-  return jest.fn<RicardianContractProcessor>(() => ({
+  return jest.fn<RicardianContractProcessor, []>(() => ({
     getSpecVersion: () => {
       return { major, minor }
-    }
+    },
+    process: jest.fn()
   }))()
 }
 

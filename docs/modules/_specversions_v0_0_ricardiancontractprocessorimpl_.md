@@ -22,7 +22,7 @@
 
 **implVersion**: *`object`*
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L21)*
+*Defined in [src/specVersions/v0.0/RicardianContractProcessorImpl.ts:21](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L21)*
 
 <a id="implversion.major"></a>
 
@@ -30,7 +30,7 @@
 
 **● major**: *`number`* = 0
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:22](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L22)*
+*Defined in [src/specVersions/v0.0/RicardianContractProcessorImpl.ts:22](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L22)*
 
 ___
 <a id="implversion.minor"></a>
@@ -39,7 +39,7 @@ ___
 
 **● minor**: *`number`* = 0
 
-*Defined in [specVersions/v0.0/RicardianContractProcessorImpl.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L23)*
+*Defined in [src/specVersions/v0.0/RicardianContractProcessorImpl.ts:23](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/specVersions/v0.0/RicardianContractProcessorImpl.ts#L23)*
 
 ___
 

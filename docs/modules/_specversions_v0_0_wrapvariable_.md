@@ -18,7 +18,7 @@
 
 **Ƭ WrapVariable**: *`function`*
 
-*Defined in [specVersions/v0.0/WrapVariable.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/specVersions/v0.0/WrapVariable.ts#L1)*
+*Defined in [src/specVersions/v0.0/WrapVariable.ts:1](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/specVersions/v0.0/WrapVariable.ts#L1)*
 
 #### Type declaration
 ▸(prefix: *`string`*, classname: *`string`*, variable: *`string`*, suffix: *`string`*): `string`

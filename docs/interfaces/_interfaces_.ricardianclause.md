@@ -23,7 +23,7 @@
 
 **● body**: *`string`*
 
-*Defined in [interfaces.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L3)*
+*Defined in [src/interfaces.ts:3](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/interfaces.ts#L3)*
 
 ___
 <a id="id"></a>
@@ -32,7 +32,7 @@ ___
 
 **● id**: *`string`*
 
-*Defined in [interfaces.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/ae088d5/src/interfaces.ts#L2)*
+*Defined in [src/interfaces.ts:2](https://github.com/EOSIO/ricardian-template-toolkit/blob/c1cccb0/src/interfaces.ts#L2)*
 
 ___
 

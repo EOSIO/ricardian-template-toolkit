@@ -59,7 +59,7 @@
     "argparse": "1.0.10",
     "underscore.string": "3.3.5",
     "merge": "1.2.1",
-    "handlebars": "4.1.2",
+    "handlebars": "4.3.0",
     "lodash": "4.17.11",
     "js-yaml": "3.13.1",
     "marked": "^0.6.2"
